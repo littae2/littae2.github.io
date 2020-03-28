@@ -1,6 +1,11 @@
 .column {
   width: 100%;
 }
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
 html {
   font-family: "Hind";
 }
@@ -35,6 +40,30 @@ header {
   color: white;
   filter: grayscale(50%);
 }
+.contactForm input{
+  width: 40%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+.contactForm{
+  padding:10%;
+  padding-left: 30%;
+  
+  justify-content: center;
+}
+.contactForm textarea {
+  width: 40%;
+  height: 15%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
 .contactBanner h1 {
   text-align: center;
   font-size: 600%;
