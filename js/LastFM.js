@@ -45,3 +45,11 @@ function appendData(data) {
 }*/
 
 
+fetch('https://littae2.github.io/json/Music.json')
+.then(response => { return response.json() })
+.then(data => {
+    let song = data["song"];
+    // do something with the joke, like display it in a div maybe...
+})
+
+
