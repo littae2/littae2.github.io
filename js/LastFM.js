@@ -47,10 +47,10 @@ function appendData(data) {
 function topTracks(data){
 
 
-  document.getElementById('OverallTopTracks').innerHTML 
+  document.getElementById('TrackList').innerHTML 
   var output = document.getElementById('RecentList');
 
-  fetch('https://littae2.github.io/json/music.json')
+  fetch('http://127.0.0.1:5500/json/music.json')
   .then(response => { return response.json() })
   .then(data => {
       let song = data["song"];
