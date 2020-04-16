@@ -176,60 +176,60 @@
               }
             }
           },
-        
 
-        "The Strange Case Of...": {
-          "edition": "deluxe",
-          "year": 2012,
-          "image": {
-            "src": "../img/music/halestorm_strangecaseof",
-            "name": "Halestorm_StrangeCaseOf"
-          },
-          "song": {
-            "Love Bites (So Do I)": {
-              "explicit": false,
-              "timesListened": 350,
-              "lastListened": "2020-03-16T18:31"
+          "The Strange Case Of...": {
+            "edition": "deluxe",
+            "year": 2012,
+            "image": {
+              "src": "../img/music/halestorm_strangecaseof",
+              "name": "Halestorm_StrangeCaseOf"
             },
-            "Mz.Hyde": {
-              "explicit": false,
-              "timesListened": 765,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Freak Like Me": {
-              "explicit": true,
-              "timesListened": 653,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Daughters Of Darkness": {
-              "explicit": false,
-              "timesListened": 468,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "You Call Me A Bitch Like It's A Bad Thing": {
-              "explicit": true,
-              "timesListened": 375,
-              "lastListened": "2020-03-16T18:31"
+            "song": {
+              "Love Bites (So Do I)": {
+                "explicit": false,
+                "timesListened": 350,
+                "lastListened": "2020-03-16T18:31"
+              },
+              "Mz.Hyde": {
+                "explicit": false,
+                "timesListened": 765,
+                "lastListened": "2020-03-16T18:31"
+              },
+              "Freak Like Me": {
+                "explicit": true,
+                "timesListened": 653,
+                "lastListened": "2020-03-16T18:31"
+              },
+              "Daughters Of Darkness": {
+                "explicit": false,
+                "timesListened": 468,
+                "lastListened": "2020-03-16T18:31"
+              },
+              "You Call Me A Bitch Like It's A Bad Thing": {
+                "explicit": true,
+                "timesListened": 375,
+                "lastListened": "2020-03-16T18:31"
+              }
             }
-          }
-        },
-        "Vicious": {
-          "edition": "standard",
-          "year": 2018,
-          "image": {
-            "src": "../img/music/halestorm_vicious",
-            "name": "Halestorm_Vicious"
           },
-          "song": {
-            "Uncomfortable": {
-              "explicit": true,
-              "timesListened": 216,
-              "lastListened": "2020-03-16T18:31"
+          "Vicious": {
+            "edition": "standard",
+            "year": 2018,
+            "image": {
+              "src": "../img/music/halestorm_vicious",
+              "name": "Halestorm_Vicious"
             },
-            "Do Not Disturb": {
-              "explicit": false,
-              "timesListened": 175,
-              "lastListened": "2020-03-16T18:31"
+            "song": {
+              "Uncomfortable": {
+                "explicit": true,
+                "timesListened": 216,
+                "lastListened": "2020-03-16T18:31"
+              },
+              "Do Not Disturb": {
+                "explicit": false,
+                "timesListened": 175,
+                "lastListened": "2020-03-16T18:31"
+              }
             }
           }
         }
