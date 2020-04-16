@@ -44,12 +44,20 @@ function appendData(data) {
 })
 }*/
 
+function topTracks(data){
 
-fetch('https://littae2.github.io/json/Music.json')
-.then(response => { return response.json() })
-.then(data => {
-    let song = data["song"];
-    // do something with the joke, like display it in a div maybe...
-})
+
+  document.getElementById('OverallTopTracks').innerHTML 
+  var output = document.getElementById('RecentList');
+
+  fetch('https://littae2.github.io/json/music.json')
+  .then(response => { return response.json() })
+  .then(data => {
+      let song = data["song"];
+      // do something with the joke, like display it in a div maybe...
+      output.innerHTML = song; 
+  })
+}
+
 
 
