@@ -44,4 +44,20 @@ function appendData(data) {
 })
 }*/
 
+function topTracks(data){
+
+
+  document.getElementById('TrackList').innerHTML 
+  var output = document.getElementById('RecentList');
+
+  fetch('http://127.0.0.1:5500/json/music.json')
+  .then(response => { return response.json() })
+  .then(data => {
+      let song = data["song"];
+      // do something with the joke, like display it in a div maybe...
+      output.innerHTML = song; 
+  })
+}
+
+
 
