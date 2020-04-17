@@ -42,15 +42,15 @@ function appendData(data) {
 
     }).appendTo("body");
 })
-}*/
+}
 
 function topTracks(data){
 
-
+document = "../index.html"
   document.getElementById('TrackList').innerHTML 
   var output = document.getElementById('RecentList');
 
-  fetch('http://127.0.0.1:5500/json/music.json')
+  fetch('https://littae2.github.io/json/music.json')
   .then(response => { return response.json() })
   .then(data => {
       let song = data["song"];
@@ -60,4 +60,74 @@ function topTracks(data){
 }
 
 
+function topTracks(){
 
+    document.getElementById('TrackList').innerHTML 
+    var output = document.getElementById('TrackList');
+  
+    fetch('https://littae2.github.io/json/music.json')
+    .then(response => { return response.json() })
+    .then(data => {
+      var text = "";
+      let song = data["song"];
+for (song in data) {
+  text += data[song];
+}
+        // do something with the joke, like display it in a div maybe...
+        output.innerHTML = song;
+    })
+  }  
+  topTracks()
+  */
+
+function allArtists() {
+  document.getElementById("ArtistList").innerHTML;
+  var output = document.getElementById("ArtistList");
+
+  fetch("https://littae2.github.io/json/music.json")
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      var text = "";
+
+      for (artist in data["artists"]) {
+        text += artist + "\n";
+      }
+
+      output.innerHTML = text;
+    });
+}
+
+function topArtists() {
+  document.getElementById("ArtistList").innerHTML;
+  var output = document.getElementById("ArtistList");
+
+  fetch("https://littae2.github.io/json/music.json")
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      var text = "";
+      var artistsOut = [];
+
+      for (artist in data["artists"]) {
+        artistsOut.add(artist);
+        for (album in data[artist["album"]]) {
+          for (song in data[artist[album["song"]]]) {
+            artist["totalListens"] += song["timesListened"];
+          }
+        }
+      }
+
+      artistsOut.sort(artist["totalListens"]);
+      for (artist in artistOut) {
+        text += artist + "\n";
+      }
+
+      output.innerHTML = text;
+    });
+}
+
+//topArtists();
+allArtists();

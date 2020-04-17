@@ -1,6 +1,8 @@
 {
   "artists": {
     "Avril Lavigne": {
+      "totalListens": 0,
+      "artistimg": "../img/Artists/AvrilLavigne.jpg",
       "album": {
         "Avril Lagivgne": {
           "edition": "standard",
@@ -20,6 +22,8 @@
       }
     },
     "Demi Lovato": {
+      "totalListens": 0,
+      "artistimg": "../img/Artists/DemiLovato.jpg",
       "album": {
         "Confident": {
           "editon": "deluxe",
@@ -98,6 +102,8 @@
       }
     },
     "HaleStorm": {
+      "totalListens": 0,
+      "artistimg": "../img/Artists/Halestorm.jpg",
       "album": {
         "Halestomrm": {
           "edition": "deluxe",
@@ -234,6 +240,8 @@
       }
     },
     "Little Mix": {
+      "totalListens": 0,
+      "artistimg": "../img/Artists/LittleMix.jpg",
       "album": {
         "Get Weird": {
           "edition": "deluxe",
@@ -363,6 +371,8 @@
       }
     },
     "Meghan Trainor": {
+      "totalListens": 0,
+      "artistimg": "../img/Artists/MeghanTrainor.jpg",
       "album": {
         "Thank You": {
           "edition": "deluxe",
@@ -402,6 +412,8 @@
       }
     },
     "The Pretty Reckless": {
+      "totalListens": 0,
+      "artistimg": "../img/Artists/ThePrettyReckless.jpg",
       "album": {
         "Going To Hell": {
           "edition": "standard",
@@ -466,6 +478,8 @@
       }
     },
     "Tori Kelly": {
+      "totalListens": 0,
+      "artistimg": "../img/Artists/ToriKelly.jpg",
       "album": {
         "Handmade Songs": {
           "edition": "standard",
@@ -580,6 +594,8 @@
       }
     },
     "Zaz": {
+      "totalListens": 0,
+      "artistimg": "../img/Artists/Zaz.jpg",
       "album": {
         "Zaz": {
           "edition": "standard",
