@@ -78,7 +78,7 @@ for (song in data) {
     })
   }  
   topTracks()
-  */
+  
 
 function allArtists() {
   document.getElementById("ArtistList").innerHTML;
@@ -93,9 +93,54 @@ function allArtists() {
 
       for (artist in data["artists"]) {
         text += artist + "\n";
+        
       }
 
       output.innerHTML = text;
+    });
+}
+function allArtists() {
+  document.getElementById("ArtistList").innerHTML;
+  var output = document.getElementById("ArtistList");
+
+  fetch("https://littae2.github.io/json/music.json")
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      var text = "";
+      var listOfArtists= new listOfArtists[string];
+     
+
+
+      for (artist in data["artists"]) {
+        
+        listOfArtists.add(artist)
+        
+        //artist.backgroundimg=artist["artistimg"];
+      }
+      for (item in listOfArtists){
+       
+      }
+
+      
+    });
+}
+*/
+function allArtists() {
+  document.getElementById("ArtistList").innerHTML;
+  var output = document.getElementById("ArtistList");
+
+  fetch("https://littae2.github.io/json/music.json")
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      for (artist in data["artists"]) {
+        var artimage = artist["artistimg"];
+        output.innerHTML += '<img src="'  + artimage + '"/>';
+        output.innerHTML+=artist
+      }
     });
 }
 
@@ -118,16 +163,21 @@ function topArtists() {
             artist["totalListens"] += song["timesListened"];
           }
         }
+        output.innerHTML +=
+          "'<div><img src='" +
+          artist["artistimg"] +
+          "'><h1>'" +
+          artist +
+          "'</h1></div'";
       }
 
-      artistsOut.sort(artist["totalListens"]);
-      for (artist in artistOut) {
-        text += artist + "\n";
-      }
+      //artistsOut.sort(artist["totalListens"]);
+      // for (artist in artistOut) {
 
-      output.innerHTML = text;
+      // }
     });
 }
 
 //topArtists();
 allArtists();
+allTracks();
