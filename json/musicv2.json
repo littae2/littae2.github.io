@@ -1,628 +1,682 @@
 {
-  "artists": {
-    "Avril Lavigne": {
-      "totalListens": 0,
-      "artistimg": ["../img/Artists/AvrilLavigne.jpg"],
-      "album": {
-        "Avril Lagivgne": {
-          "edition": "standard",
-          "year": 2013,
-          "image": {
-            "src": "../img/music/AvrilLavigne_AvrilLavigne",
-            "name": "AvrilLavigne_AvrilLavigne"
-          },
-          "song": {
-            "Bad Girl": {
-              "explicit": true,
-              "timesListened": 1500,
-              "lastListened": "2020-03-16T18:31"
+  "artists": [
+    {
+      "Avril Lavigne": {
+        "totalListens": 0,
+        "artistimg": "../img/Artists/AvrilLavigne.jpg",
+        "album": [
+          {
+            "Avril Lagivgne": {
+              "edition": "standard",
+              "year": 2013,
+              "image": {
+                "src": "../img/music/AvrilLavigne_AvrilLavigne",
+                "name": "AvrilLavigne_AvrilLavigne"
+              },
+              "song": [
+                {
+                  "Bad Girl": {
+                    "explicit": true,
+                    "timesListened": 1500,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             }
           }
-        }
-      }
-    },    
-    "Demi Lovato": {
-      "totalListens": 0,
-      "artistimg": "../img/Artists/DemiLovato.jpg",
-      "album": {
-        "Confident": {
-          "editon": "deluxe",
-          "year": 2015,
-          "image": {
-            "src": "..img/music/demiLovato_Confident",
-            "name": "DemiLovato_Confident"
-          },
-          "song": {
+        ]
+      },
+
+      "Demi Lovato": {
+        "totalListens": 0,
+        "artistimg": "../img/Artists/DemiLovato.jpg",
+        "album": [
+          {
             "Confident": {
-              "explicit": true,
-              "timesListened": 100,
-              "lastListened": "2019-03-16T18:31"
-            }
-          }
-        },
-        "Tell Me You Love Me": {
-          "edition": "deluxe",
-          "year": 2017,
-          "image": {
-            "src": "../img/music/demiLovato_TellMeYouLoveMe",
-            "name": "DemiLovato_TellMeYouLoveMe"
-          },
-          "song": {
-            "Sorry Not Sorry": {
-              "explicit": true,
-              "timesListened": 400,
-              "lastListened": "2019-08-20T20:21"
+              "editon": "deluxe",
+              "year": 2015,
+              "image": {
+                "src": "..img/music/demiLovato_Confident",
+                "name": "DemiLovato_Confident"
+              },
+              "song": [
+                {
+                  "Confident": {
+                    "explicit": true,
+                    "timesListened": 100,
+                    "lastListened": "2019-03-16T18:31"
+                  }
+                }
+              ]
             },
             "Tell Me You Love Me": {
-              "explicit": false,
-              "timesListened": 300,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "You Dont Do It For Me Anymore": {
-              "explicit": false,
-              "timesListened": 350,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Daddy Issues": {
-              "explicit": true,
-              "timesListened": 500,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Ruin The Friendship": {
-              "explicit": true,
-              "timesListened": 150,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Lonely": {
-              "explicit": true,
-              "timesListened": 700,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Games": {
-              "explicit": true,
-              "timesListened": 200,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Concentrate": {
-              "timesListened": 140,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Hitchhiker": {
-              "explicit": false,
-              "timesListened": 136,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Instruction": {
-              "explicit": false,
-              "timesListened": 178,
-              "lastListened": "2020-03-16T18:31"
+              "edition": "deluxe",
+              "year": 2017,
+              "image": {
+                "src": "../img/music/demiLovato_TellMeYouLoveMe",
+                "name": "DemiLovato_TellMeYouLoveMe"
+              },
+              "song": [
+                {
+                  "Sorry Not Sorry": {
+                    "explicit": true,
+                    "timesListened": 400,
+                    "lastListened": "2019-08-20T20:21"
+                  },
+                  "Tell Me You Love Me": {
+                    "explicit": false,
+                    "timesListened": 300,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "You Dont Do It For Me Anymore": {
+                    "explicit": false,
+                    "timesListened": 350,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Daddy Issues": {
+                    "explicit": true,
+                    "timesListened": 500,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Ruin The Friendship": {
+                    "explicit": true,
+                    "timesListened": 150,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Lonely": {
+                    "explicit": true,
+                    "timesListened": 700,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Games": {
+                    "explicit": true,
+                    "timesListened": 200,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Concentrate": {
+                    "timesListened": 140,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Hitchhiker": {
+                    "explicit": false,
+                    "timesListened": 136,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Instruction": {
+                    "explicit": false,
+                    "timesListened": 178,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             }
           }
-        }
-      }
-    },
-    "HaleStorm": {
-      "totalListens": 0,
-      "artistimg": "../img/Artists/Halestorm.jpg",
-      "album": {
-        "Halestomrm": {
-          "edition": "deluxe",
-          "year": 2009,
-          "image": {
-            "src": "../img/music/halestorm_halestorm",
-            "name": "Halestorm_Halestorm"
-          },
-          "song": {
-            "It's Not You": {
-              "explicit": false,
-              "timesListened": 600,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "I Get Off": {
-              "explicit": false,
-              "timesListened": 1000,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Innocence": {
-              "explicit": false,
-              "timesListened": 700,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Familar Taste Of Poison": {
-              "explicit": false,
-              "timesListened": 650,
-              "lastListened": "2020-03-16T18:31"
-            }
-          }
-        },
-        "Into The Wild Life": {
-          "explicit": false,
-          "edition": "deluxe",
-          "year": 2015,
-          "image": {
-            "src": "../img/music/halestorm_intothewild_",
-            "name": "Halestorm_IntoTheWildLife"
-          },
-          "song": {
-            "I Am The Fire": {
-              "explicit": false,
-              "timesListened": 600,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Sick Individual": {
-              "explicit": true,
-              "timesListened": 641,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Mayhem": {
-              "explicit": false,
-              "timesListened": 1500,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Apocalyptic": {
-              "explicit": false,
-              "timesListened": 457,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "What Sober Couldn't Say": {
-              "explicit": false,
-              "timesListened": 345,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "I Like It Heavy": {
-              "explicit": true,
-              "timesListened": 700,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Jump The Gun": {
-              "explicit": false,
-              "timesListened": 550,
-              "lastListened": "2020-03-16T18:31"
-            }
-          }
-        },
+        ]
+      },
 
-        "The Strange Case Of...": {
-          "edition": "deluxe",
-          "year": 2012,
-          "image": {
-            "src": "../img/music/halestorm_strangecaseof",
-            "name": "Halestorm_StrangeCaseOf"
-          },
-          "song": {
-            "Love Bites (So Do I)": {
+      "HaleStorm": {
+        "totalListens": 0,
+        "artistimg": "../img/Artists/Halestorm.jpg",
+        "album": [
+          {
+            "Halestomrm": {
+              "edition": "deluxe",
+              "year": 2009,
+              "image": {
+                "src": "../img/music/halestorm_halestorm",
+                "name": "Halestorm_Halestorm"
+              },
+              "song": [
+                {
+                  "It's Not You": {
+                    "explicit": false,
+                    "timesListened": 600,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "I Get Off": {
+                    "explicit": false,
+                    "timesListened": 1000,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Innocence": {
+                    "explicit": false,
+                    "timesListened": 700,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Familar Taste Of Poison": {
+                    "explicit": false,
+                    "timesListened": 650,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
+            },
+            "Into The Wild Life": {
               "explicit": false,
-              "timesListened": 350,
-              "lastListened": "2020-03-16T18:31"
+              "edition": "deluxe",
+              "year": 2015,
+              "image": {
+                "src": "../img/music/halestorm_intothewild_",
+                "name": "Halestorm_IntoTheWildLife"
+              },
+              "song": [
+                {
+                  "I Am The Fire": {
+                    "explicit": false,
+                    "timesListened": 600,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Sick Individual": {
+                    "explicit": true,
+                    "timesListened": 641,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Mayhem": {
+                    "explicit": false,
+                    "timesListened": 1500,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Apocalyptic": {
+                    "explicit": false,
+                    "timesListened": 457,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "What Sober Couldn't Say": {
+                    "explicit": false,
+                    "timesListened": 345,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "I Like It Heavy": {
+                    "explicit": true,
+                    "timesListened": 700,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Jump The Gun": {
+                    "explicit": false,
+                    "timesListened": 550,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             },
-            "Mz.Hyde": {
-              "explicit": false,
-              "timesListened": 765,
-              "lastListened": "2020-03-16T18:31"
+
+            "The Strange Case Of...": {
+              "edition": "deluxe",
+              "year": 2012,
+              "image": {
+                "src": "../img/music/halestorm_strangecaseof",
+                "name": "Halestorm_StrangeCaseOf"
+              },
+              "song": [
+                {
+                  "Love Bites (So Do I)": {
+                    "explicit": false,
+                    "timesListened": 350,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Mz.Hyde": {
+                    "explicit": false,
+                    "timesListened": 765,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Freak Like Me": {
+                    "explicit": true,
+                    "timesListened": 653,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Daughters Of Darkness": {
+                    "explicit": false,
+                    "timesListened": 468,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "You Call Me A Bitch Like It's A Bad Thing": {
+                    "explicit": true,
+                    "timesListened": 375,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             },
-            "Freak Like Me": {
-              "explicit": true,
-              "timesListened": 653,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Daughters Of Darkness": {
-              "explicit": false,
-              "timesListened": 468,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "You Call Me A Bitch Like It's A Bad Thing": {
-              "explicit": true,
-              "timesListened": 375,
-              "lastListened": "2020-03-16T18:31"
+            "Vicious": {
+              "edition": "standard",
+              "year": 2018,
+              "image": {
+                "src": "../img/music/halestorm_vicious",
+                "name": "Halestorm_Vicious"
+              },
+              "song": [
+                {
+                  "Uncomfortable": {
+                    "explicit": true,
+                    "timesListened": 216,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Do Not Disturb": {
+                    "explicit": false,
+                    "timesListened": 175,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             }
           }
-        },
-        "Vicious": {
-          "edition": "standard",
-          "year": 2018,
-          "image": {
-            "src": "../img/music/halestorm_vicious",
-            "name": "Halestorm_Vicious"
-          },
-          "song": {
-            "Uncomfortable": {
-              "explicit": true,
-              "timesListened": 216,
-              "lastListened": "2020-03-16T18:31"
+        ]
+      },
+      "Little Mix": {
+        "totalListens": 0,
+        "artistimg": "../img/Artists/LittleMix.jpg",
+        "album": [
+          {
+            "Get Weird": {
+              "edition": "deluxe",
+              "year": 2015,
+              "image": {
+                "src": "../img/music/littleMix_GetWeirdDeluxe",
+                "name": "LittleMix_GetWeird"
+              },
+              "song": [
+                {
+                  "Black Magic": {
+                    "explicit": false,
+                    "timesListened": 36,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Love Me Like You": {
+                    "explicit": false,
+                    "timesListened": 42,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Weird People": {
+                    "explicit": false,
+                    "timesListened": 295,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Hair": {
+                    "explicit": false,
+                    "timesListened": 78,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Grown": {
+                    "explicit": false,
+                    "timesListened": 135,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "OMG": {
+                    "explicit": false,
+                    "timesListened": 15,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Lightning": {
+                    "explicit": false,
+                    "timesListened": 30,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "A.D.I.D.A.S.": {
+                    "explicit": false,
+                    "timesListened": 98,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "I Wont": {
+                    "explicit": false,
+                    "timesListened": 86,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             },
-            "Do Not Disturb": {
-              "explicit": false,
-              "timesListened": 175,
-              "lastListened": "2020-03-16T18:31"
-            }
-          }
-        }
-      }
-    },
-    "Little Mix": {
-      "totalListens": 0,
-      "artistimg": "../img/Artists/LittleMix.jpg",
-      "album": {
-        "Get Weird": {
-          "edition": "deluxe",
-          "year": 2015,
-          "image": {
-            "src": "../img/music/littleMix_GetWeirdDeluxe",
-            "name": "LittleMix_GetWeird"
-          },
-          "song": {
-            "Black Magic": {
-              "explicit": false,
-              "timesListened": 36,
-              "lastListened": "2020-03-16T18:31"
+            "Glory Days": {
+              "edition": "Platinum",
+              "year": 2016,
+              "image": {
+                "src": "../img/music/LittleMix_GloryDaysPlatinum",
+                "name": "LittleMix_GloryDays"
+              },
+              "song": [
+                {
+                  "Shout Out To My Ex": {
+                    "explicit": false,
+                    "timesListened": 87,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "FU": {
+                    "explicit": false,
+                    "timesListened": 15,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Power": {
+                    "explicit": false,
+                    "timesListened": 40,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "No More Sad Songs": {
+                    "explicit": false,
+                    "timesListened": 10,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Oops": {
+                    "explicit": false,
+                    "timesListened": 7,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "You Gotta Not": {
+                    "explicit": false,
+                    "timesListened": 17,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Down & Dirty": {
+                    "explicit": false,
+                    "timesListened": 60,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             },
-            "Love Me Like You": {
-              "explicit": false,
-              "timesListened": 42,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Weird People": {
-              "explicit": false,
-              "timesListened": 295,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Hair": {
-              "explicit": false,
-              "timesListened": 78,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Grown": {
-              "explicit": false,
-              "timesListened": 135,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "OMG": {
-              "explicit": false,
-              "timesListened": 15,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Lightning": {
-              "explicit": false,
-              "timesListened": 30,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "A.D.I.D.A.S.": {
-              "explicit": false,
-              "timesListened": 98,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "I Wont": {
-              "explicit": false,
-              "timesListened": 86,
-              "lastListened": "2020-03-16T18:31"
-            }
-          }
-        },
-        "Glory Days": {
-          "edition": "Platinum",
-          "year": 2016,
-          "image": {
-            "src": "../img/music/LittleMix_GloryDaysPlatinum",
-            "name": "LittleMix_GloryDays"
-          },
-          "song": {
-            "Shout Out To My Ex": {
-              "explicit": false,
-              "timesListened": 87,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "FU": {
-              "explicit": false,
-              "timesListened": 15,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Power": {
-              "explicit": false,
-              "timesListened": 40,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "No More Sad Songs": {
-              "explicit": false,
-              "timesListened": 10,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Oops": {
-              "explicit": false,
-              "timesListened": 7,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "You Gotta Not": {
-              "explicit": false,
-              "timesListened": 17,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Down & Dirty": {
-              "explicit": false,
-              "timesListened": 60,
-              "lastListened": "2020-03-16T18:31"
-            }
-          }
-        },
-        "Salute": {
-          "edition": "deluxe",
-          "year": 2013,
-          "image": {
-            "src": "../img/music/littleMix_SaluteDeluxe",
-            "name": "LittleMix_Salute"
-          },
-          "song": {
             "Salute": {
-              "explicit": false,
-              "timesListened": 150,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Move": {
-              "explicit": false,
-              "timesListened": 390,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Competition": {
-              "explicit": false,
-              "timesListened": 200,
-              "lastListened": "2020-03-16T18:31"
+              "edition": "deluxe",
+              "year": 2013,
+              "image": {
+                "src": "../img/music/littleMix_SaluteDeluxe",
+                "name": "LittleMix_Salute"
+              },
+              "song": [
+                {
+                  "Salute": {
+                    "explicit": false,
+                    "timesListened": 150,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Move": {
+                    "explicit": false,
+                    "timesListened": 390,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Competition": {
+                    "explicit": false,
+                    "timesListened": 200,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             }
           }
-        }
-      }
-    },
-    "Meghan Trainor": {
-      "totalListens": 0,
-      "artistimg": "../img/Artists/MeghanTrainor.jpg",
-      "album": {
-        "Thank You": {
-          "edition": "deluxe",
-          "year": 2016,
-          "image": {
-            "src": "../img/music/meghanTrainor_ThankYouDeluxe",
-            "name": "MeghanTrainor_ThankYou"
-          },
-          "song": {
-            "Watch Me Do": {
-              "explicit": false,
-              "timesListened": 150,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Me Too": {
-              "explicit": false,
-              "timesListened": 250,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "NO": {
-              "explicit": false,
-              "timesListened": 180,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Woman Up": {
-              "explicit": false,
-              "timesListened": 130,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Dance Like Yo Daddy": {
-              "explicit": false,
-              "timesListened": 160,
-              "lastListened": "2020-03-16T18:31"
+        ]
+      },
+      "Meghan Trainor": {
+        "totalListens": 0,
+        "artistimg": "../img/Artists/MeghanTrainor.jpg",
+        "album": [
+          {
+            "Thank You": {
+              "edition": "deluxe",
+              "year": 2016,
+              "image": {
+                "src": "../img/music/meghanTrainor_ThankYouDeluxe",
+                "name": "MeghanTrainor_ThankYou"
+              },
+              "song": [
+                {
+                  "Watch Me Do": {
+                    "explicit": false,
+                    "timesListened": 150,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Me Too": {
+                    "explicit": false,
+                    "timesListened": 250,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "NO": {
+                    "explicit": false,
+                    "timesListened": 180,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Woman Up": {
+                    "explicit": false,
+                    "timesListened": 130,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Dance Like Yo Daddy": {
+                    "explicit": false,
+                    "timesListened": 160,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             }
           }
-        }
-      }
-    },
-    "The Pretty Reckless": {
-      "totalListens": 0,
-      "artistimg": "../img/Artists/ThePrettyReckless.jpg",
-      "album": {
-        "Going To Hell": {
-          "edition": "standard",
-          "year": 2014,
-          "image": {
-            "src": "../img/music/theprettyreckless_gointohell",
-            "name": "ThePrettyReckless_GoingToHell"
-          },
-          "song": {
+        ]
+      },
+      "The Pretty Reckless": {
+        "totalListens": 0,
+        "artistimg": "../img/Artists/ThePrettyReckless.jpg",
+        "album": [
+          {
             "Going To Hell": {
-              "explicit": false,
-              "timesListened": 758,
-              "lastListened": "2020-03-16T18:31"
+              "edition": "standard",
+              "year": 2014,
+              "image": {
+                "src": "../img/music/theprettyreckless_gointohell",
+                "name": "ThePrettyReckless_GoingToHell"
+              },
+              "song": [
+                {
+                  "Going To Hell": {
+                    "explicit": false,
+                    "timesListened": 758,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Heaven Knows": {
+                    "explicit": false,
+                    "timesListened": 638,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Why'd You Bring A Shotgun To The Party": {
+                    "explicit": true,
+                    "timesListened": 974,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Fucked Up World": {
+                    "explicit": true,
+                    "timesListened": 826,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             },
-            "Heaven Knows": {
-              "explicit": false,
-              "timesListened": 638,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Why'd You Bring A Shotgun To The Party": {
-              "explicit": true,
-              "timesListened": 974,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Fucked Up World": {
-              "explicit": true,
-              "timesListened": 826,
-              "lastListened": "2020-03-16T18:31"
+            "Light Me Up": {
+              "edition": "standard",
+              "year": 2010,
+              "image": {
+                "src": "../img/music/theprettyreckless_lightmeup",
+                "name": "ThePrettyReckless_LightMeUp"
+              },
+              "song": [
+                {
+                  "My Medicine": {
+                    "explicit": false,
+                    "timesListened": 573,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Make Me Wanna Die": {
+                    "explicit": false,
+                    "timesListened": 428,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Miss Nothing": {
+                    "explicit": false,
+                    "timesListened": 528,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Goin' Down": {
+                    "explicit": false,
+                    "timesListened": 890,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             }
           }
-        },
-        "Light Me Up": {
-          "edition": "standard",
-          "year": 2010,
-          "image": {
-            "src": "../img/music/theprettyreckless_lightmeup",
-            "name": "ThePrettyReckless_LightMeUp"
-          },
-          "song": {
-            "My Medicine": {
-              "explicit": false,
-              "timesListened": 573,
-              "lastListened": "2020-03-16T18:31"
+        ]
+      },
+      "Tori Kelly": {
+        "totalListens": 0,
+        "artistimg": "../img/Artists/ToriKelly.jpg",
+        "album": [
+          {
+            "Handmade Songs": {
+              "edition": "standard",
+              "year": 2012,
+              "image": {
+                "src": "../img/music/toriKelly_HandmadeSongs",
+                "name": "ToriKelly_HandmadeSongs"
+              },
+              "song": [
+                {
+                  "All In My Head": {
+                    "explicit": false,
+                    "timesListened": 320,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Confetti": {
+                    "explicit": false,
+                    "timesListened": 670,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Upside Down": {
+                    "explicit": false,
+                    "timesListened": 750,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             },
-            "Make Me Wanna Die": {
-              "explicit": false,
-              "timesListened": 428,
-              "lastListened": "2020-03-16T18:31"
+            "Hiding Place": {
+              "edition": "standard",
+              "year": 2018,
+              "image": {
+                "src": "../img/music/toriKelly_HidingPlace",
+                "name": "ToriKelly_HidingPlace"
+              },
+              "song": [
+                {
+                  "Questions": {
+                    "explicit": false,
+                    "timesListened": 140,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Never Alone": {
+                    "explicit": false,
+                    "timesListened": 100,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             },
-            "Miss Nothing": {
-              "explicit": false,
-              "timesListened": 528,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Goin' Down": {
-              "explicit": false,
-              "timesListened": 890,
-              "lastListened": "2020-03-16T18:31"
+            "Inspired By True Events": {
+              "edition": "deluxe",
+              "year": 2019,
+              "image": {
+                "src": "../img/music/toriKelly_inspiredByTrueEvents",
+                "name": "ToriKelly_InspiredByTrueEvents"
+              },
+              "song": [
+                {
+                  "Coffee": {
+                    "explicit": false,
+                    "timesListened": 50,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Language": {
+                    "explicit": false,
+                    "timesListened": 190,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "2 Places": {
+                    "explicit": false,
+                    "timesListened": 90,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Pretty Fades": {
+                    "explicit": false,
+                    "timesListened": 10,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Sorry Would Go A Long Way": {
+                    "explicit": false,
+                    "timesListened": 110,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Actress": {
+                    "explicit": false,
+                    "timesListened": 80,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "The Lie": {
+                    "explicit": false,
+                    "timesListened": 90,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Until I Think Of You": {
+                    "explicit": false,
+                    "timesListened": 76,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Your Words": {
+                    "explicit": false,
+                    "timesListened": 86,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Before The Dawn": {
+                    "explicit": false,
+                    "timesListened": 150,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Minute To Myself": {
+                    "explicit": false,
+                    "timesListened": 170,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             }
           }
-        }
-      }
-    },
-    "Tori Kelly": {
-      "totalListens": 0,
-      "artistimg": "../img/Artists/ToriKelly.jpg",
-      "album": {
-        "Handmade Songs": {
-          "edition": "standard",
-          "year": 2012,
-          "image": {
-            "src": "../img/music/toriKelly_HandmadeSongs",
-            "name": "ToriKelly_HandmadeSongs"
-          },
-          "song": {
-            "All In My Head": {
-              "explicit": false,
-              "timesListened": 320,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Confetti": {
-              "explicit": false,
-              "timesListened": 670,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Upside Down": {
-              "explicit": false,
-              "timesListened": 750,
-              "lastListened": "2020-03-16T18:31"
+        ]
+      },
+      "Zaz": {
+        "totalListens": 0,
+        "artistimg": "../img/Artists/Zaz.jpg",
+        "album": [
+          {
+            "Zaz": {
+              "edition": "standard",
+              "year": 2010,
+              "image": {
+                "src": "../img/music/Zaz_Zaz",
+                "name": "Zaz_Zaz"
+              },
+              "song": [
+                {
+                  "Les Passants": {
+                    "explicit": false,
+                    "timesListened": 100,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Je Veux": {
+                    "explicit": false,
+                    "timesListened": 120,
+                    "lastListened": "2020-03-16T18:31"
+                  },
+                  "Dans Ma Rue": {
+                    "explicit": false,
+                    "timesListened": 150,
+                    "lastListened": "2020-03-16T18:31"
+                  }
+                }
+              ]
             }
           }
-        },
-        "Hiding Place": {
-          "edition": "standard",
-          "year": 2018,
-          "image": {
-            "src": "../img/music/toriKelly_HidingPlace",
-            "name": "ToriKelly_HidingPlace"
-          },
-          "song": {
-            "Questions": {
-              "explicit": false,
-              "timesListened": 140,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Never Alone": {
-              "explicit": false,
-              "timesListened": 100,
-              "lastListened": "2020-03-16T18:31"
-            }
-          }
-        },
-        "Inspired By True Events": {
-          "edition": "deluxe",
-          "year": 2019,
-          "image": {
-            "src": "../img/music/toriKelly_inspiredByTrueEvents",
-            "name": "ToriKelly_InspiredByTrueEvents"
-          },
-          "song": {
-            "Coffee": {
-              "explicit": false,
-              "timesListened": 50,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Language": {
-              "explicit": false,
-              "timesListened": 190,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "2 Places": {
-              "explicit": false,
-              "timesListened": 90,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Pretty Fades": {
-              "explicit": false,
-              "timesListened": 10,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Sorry Would Go A Long Way": {
-              "explicit": false,
-              "timesListened": 110,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Actress": {
-              "explicit": false,
-              "timesListened": 80,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "The Lie": {
-              "explicit": false,
-              "timesListened": 90,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Until I Think Of You": {
-              "explicit": false,
-              "timesListened": 76,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Your Words": {
-              "explicit": false,
-              "timesListened": 86,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Before The Dawn": {
-              "explicit": false,
-              "timesListened": 150,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Minute To Myself": {
-              "explicit": false,
-              "timesListened": 170,
-              "lastListened": "2020-03-16T18:31"
-            }
-          }
-        }
-      }
-    },
-    "Zaz": {
-      "totalListens": 0,
-      "artistimg": "../img/Artists/Zaz.jpg",
-      "album": {
-        "Zaz": {
-          "edition": "standard",
-          "year": 2010,
-          "image": {
-            "src": "../img/music/Zaz_Zaz",
-            "name": "Zaz_Zaz"
-          },
-          "song": {
-            "Les Passants": {
-              "explicit": false,
-              "timesListened": 100,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Je Veux": {
-              "explicit": false,
-              "timesListened": 120,
-              "lastListened": "2020-03-16T18:31"
-            },
-            "Dans Ma Rue": {
-              "explicit": false,
-              "timesListened": 150,
-              "lastListened": "2020-03-16T18:31"
-            }
-          }
-        }
+        ]
       }
     }
-  }
+  ]
 }
