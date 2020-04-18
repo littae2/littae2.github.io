@@ -126,38 +126,59 @@ function allArtists() {
       
     });
 }
-*/
+
 function allArtists() {
   document.getElementById("ArtistList").innerHTML;
   var output = document.getElementById("ArtistList");
 
   fetch("https://littae2.github.io/json/music.json")
-    .then(response => {
+    .then((response) => {
       return response.json();
     })
-    .then(data => {
+    .then((data) => {
       for (artist in data["artists"]) {
         var artimage = artist["artistimg"];
-        output.innerHTML += '<img src="'  + artimage + '"/>';
-        output.innerHTML+=artist
+        output.innerHTML += '<img src="' + artimage + '"/>';
+        output.innerHTML += artist;
       }
     });
 }
 
 function topArtists() {
   document.getElementById("ArtistList").innerHTML;
-  var output = document.getElementById("ArtistList");
+  let output = document.getElementById("ArtistList");
 
   fetch("https://littae2.github.io/json/music.json")
-    .then(response => {
+    .then((response) => {
       return response.json();
     })
-    .then(data => {
+    .then((data) => {
       var text = "";
       var artistsOut = [];
+      let artistNames = [];
+      let artistImg = [];
 
+      data.artists.forEach((artist) => {
+        let artistimg = artist["artistimg"];
+        let artistname = "" + artist;
+
+        artistNames.push(artistname);
+        artistImg.push(artistimg);
+      });
+      for (let i = 0; i < artistNames.length; i++) {
+        output.innerHTML +=
+          "<img id = artist" +
+          i +
+          " src=" +
+          artistImg[i] +
+          "width=400px height=150px >";
+      }
+    });
+}
+
+/*
       for (artist in data["artists"]) {
-        artistsOut.add(artist);
+        artistsOut.push(artist);
         for (album in data[artist["album"]]) {
           for (song in data[artist[album["song"]]]) {
             artist["totalListens"] += song["timesListened"];
@@ -177,7 +198,35 @@ function topArtists() {
       // }
     });
 }
+*/
 
 //topArtists();
-allArtists();
-allTracks();
+//allArtists();
+//allTracks();
+function showArtist() {
+  document.getElementById("ArtistList").innerHTML;
+  let output = document.getElementById("ArtistList");
+  
+  fetch("https://littae2.github.io/json/music.json")
+    .then((response) => {
+      return response.json();
+    })
+
+    .then((data) => {
+      
+      for (artist in data["artists"]) {
+        let image =artist.artistimg
+      //  let image = getNestedObject(artist, ['artistimg']);
+        output.innerHTML +=
+          "<img  src='" + image + "' width: 200px height: 200px >";
+          output.innerHTML+=typeof artist.artistimg
+      }
+    });
+
+}
+
+const getNestedObject = (nestedObj, pathArr) => {
+  return pathArr.reduce((obj, key) =>
+      (obj && obj[key] !== 'undefined') ? obj[key] : undefined, nestedObj);
+}
+ showArtist();
