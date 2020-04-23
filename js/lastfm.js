@@ -1,4 +1,4 @@
-/*
+
 function allArtists() {
   fetch("json/music.json")
     .then((response) => {
@@ -21,28 +21,58 @@ function allArtists() {
 }
 
 function topTracks() {
-  fetch("json/music.json")
+  fetch('json/musicv3.json')
     .then((response) => {
       return response.json();
     })
     .then((data) => {
-      document.getElementById("TrackList").innerHTML;
+    
+      let artists=Object.keys(data);
+      
+      for(let i =0; i< artists.length; i++){
+        let artistData = data[artists[i]]
+        let artist =artists[i];
+        console.log(artist+" Total Listens: "+artistData["totalListens"]);
+        let albumArray = artistData["album"]
+       // console.log(albumArray.length)
+
+        for(let i = 0; i<albumArray.length; i ++){
+          let album =albumArray[i];
+          console.log(albumArray[album[i]]);
+          
+          
+        }
+      }
+ /// let artistData =data[artist[0]];
+     // console.log(artistData["totalListens"])
+
+
+      //console.log(data[3])
+      //console.log(data[3]["Little Mix"]["album"][0])
+    // console.log(data[3]["Little Mix"]["album"][1]);
+      /*
+      
       let output = document.getElementById("TrackList");
 
-      let artists = data["artists"];
-      let topSongs = [];
-      let keys = Object.keys(artists);
-      keys.forEach((k) => {
-       console.log(artists[k])
-          
-        });
+      let artistData = data["artists"];
+     
+      let keys = Object.keys(artistData);
+     // console.log (artistData);
+      keys.forEach((k)=>{
+      let artists= artistData[k]
+      // / console.log (artists)
+        console.log(artists["album"])
+      })
+        //console.log (artistArr)
+        */
       });
+    
     }
          
-allArtists();
+//allArtists();
 topTracks();
-*/
 
+/*
 function allArtists() {
   fetch("json/musicv2.json")
     .then((response) => {
@@ -63,27 +93,12 @@ function allArtists() {
 }
 
 function topArtists() {
-  fetch("json/musicv2.json")
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      let artistarray = [];
-      document.getElementById("ArtistList").innerHTML;
-      let output = document.getElementById("ArtistList");
-      let artists = data["artists"];
-      let keys = Object.keys(artists);
-      console.log(keys);
-      keys.forEach((k) => {
-        artistarray.push(artists[k]);
+  
 
-        
-      });
-      artistarray.sort[artists.totalListens]
-      console.log(artistarray);
-    });
     
+  
 }
 function topTracks() {}
 
 topArtists();
+*/
