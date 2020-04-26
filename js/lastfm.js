@@ -87,21 +87,30 @@ function allTracks() {
           let albumName = data[artist].album;
           let songs = Object.keys(albumName[album].song);
           
+         // console.log(albumName[album].image)
+          
           for (let s = 0; s < songs.length; s++) {
             let songName = songs[s];
             let albumImage = albumName[album].image
-            
+          // var img = document.createElement("img")
+//img.src =albumImage+".jpg"
+//output.appendChild(img);
             output.innerHTML +=
           "<img  src='" +
           albumImage +
-          "' width: 20px height: 20px class ='albumTrack'>";
+          ".jpg' width=50px height=50px class ='albumTrack'>";
 
           output.innerHTML+="<div class ='trackInfo'>"+artist+ " - " +songName +" ("+album+")"+"</div"
             
           }
+         
+         
         }
+        
       }
+      
     });
+    
 }
 
 allTracks();
