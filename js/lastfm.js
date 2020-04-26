@@ -38,8 +38,14 @@ function topTracks() {
 
         for(let i = 0; i<albumArray.length; i ++){
           let album =albumArray[i];
-          console.log(albumArray[album[i]]);
-          
+          //console.log(album[i]);
+         // console.log(album)
+          let albumKeys= Object.keys(album)
+         // console.log(albumKeys)
+         for(let j =0; j<albumKeys.length; j++){
+           console.log(album[albumKeys][j])
+        //  console.log(album[albumKeys][j])
+         }
           
         }
       }

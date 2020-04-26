@@ -2,7 +2,7 @@
   "Avril Lavigne": {
     "totalListens": 1500,
     "artistimg": "../img/Artists/AvrilLavigne.jpg",
-    "album": [
+    "album":  
       {
         "Avril Lagivgne": {
           "edition": "standard",
@@ -20,13 +20,13 @@
           }
         }
       }
-    ]
+     
   },
 
   "Demi Lovato": {
     "totalListens": 3154,
     "artistimg": "../img/Artists/DemiLovato.jpg",
-    "album": [
+    "album":  
       {
         "Confident": {
           "editon": "deluxe",
@@ -44,7 +44,7 @@
           }
         }
       },
-      {
+      
         "Tell Me You Love Me": {
           "edition": "deluxe",
           "year": 2017,
@@ -113,14 +113,14 @@
             }
           }
         }
-      }
-    ]
-  },
+      },
+     
+  
 
   "HaleStorm": {
     "totalListens": 10745,
     "artistimg": "../img/Artists/Halestorm.jpg",
-    "album": [
+    "album":  
       {
         "Halestomrm": {
           "edition": "deluxe",
@@ -155,7 +155,7 @@
           }
         }
       },
-      {
+      
         "Into The Wild Life": {
           "explicit": false,
           "edition": "deluxe",
@@ -207,9 +207,9 @@
               "lastListened": "2020-03-16T18:31"
             }
           }
-        }
+        
       },
-      {
+      
         "The Strange Case Of...": {
           "edition": "deluxe",
           "year": 2012,
@@ -248,9 +248,7 @@
               "lastListened": "2020-03-16T18:31"
             }
           }
-        }
-      },
-      {
+        },      
         "Vicious": {
           "edition": "standard",
           "year": 2018,
@@ -272,14 +270,14 @@
             }
           }
         }
-      }
-    ]
-  },
+},
+     
+ 
 
   "Little Mix": {
     "totalListens": 1791,
     "artistimg": "../img/Artists/LittleMix.jpg",
-    "album": [
+    "album":  
       {
         "Get Weird": {
           "edition": "deluxe",
@@ -343,7 +341,7 @@
           }
         }
       },
-      {
+      
         "Glory Days": {
           "edition": "Platinum",
           "year": 2016,
@@ -368,8 +366,8 @@
               "explicit": false,
               "timesListened": 40,
               "lastListened": "2020-03-16T18:31"
-            }
-          },
+            },
+          
 
           "No More Sad Songs": {
             "explicit": false,
@@ -396,7 +394,7 @@
           }
         }
       },
-      {
+      
         "Salute": {
           "edition": "deluxe",
           "year": 2013,
@@ -424,14 +422,14 @@
             }
           }
         }
-      }
-    ]
+      
+     
   },
 
   "Meghan Trainor": {
     "totalListens": 870,
     "artistimg": "../img/Artists/MeghanTrainor.jpg",
-    "album": [
+    "album":  
       {
         "Thank You": {
           "edition": "deluxe",
@@ -473,13 +471,13 @@
           }
         }
       }
-    ]
+     
   },
 
   "The Pretty Reckless": {
     "totalListens": 5615,
     "artistimg": "../img/Artists/ThePrettyReckless.jpg",
-    "album": [
+    "album":  
       {
         "Going To Hell": {
           "edition": "standard",
@@ -515,7 +513,7 @@
           }
         }
       },
-      {
+      
         "Light Me Up": {
           "edition": "standard",
           "year": 2010,
@@ -549,14 +547,14 @@
             }
           }
         }
-      }
-    ]
+      
+     
   },
 
   "Tori Kelly": {
     "totalListens": 2972,
     "artistimg": "../img/Artists/ToriKelly.jpg",
-    "album": [
+    "album":  
       {
         "Handmade Songs": {
           "edition": "standard",
@@ -586,7 +584,7 @@
           }
         }
       },
-      {
+      
         "Hiding Place": {
           "edition": "standard",
           "year": 2018,
@@ -607,9 +605,9 @@
               "lastListened": "2020-03-16T18:31"
             }
           }
-        }
+        
       },
-      {
+      
         "Inspired By True Events": {
           "edition": "deluxe",
           "year": 2019,
@@ -685,14 +683,14 @@
             }
           }
         }
-      }
-    ]
+      
+     
   },
 
   "Zaz": {
     "totalListens": 370,
     "artistimg": "../img/Artists/Zaz.jpg",
-    "album": [
+    "album":  
       {
         "Zaz": {
           "edition": "standard",
@@ -722,6 +720,6 @@
           }
         }
       }
-    ]
+     
   }
 }
