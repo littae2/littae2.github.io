@@ -96,12 +96,11 @@ function allTracks() {
 //img.src =albumImage+".jpg"
 //output.appendChild(img);
             output.innerHTML +=
+            "<div class = 'track'>"+
           "<img  src='" +
           albumImage +
-          ".jpg' width=50px height=50px class ='albumTrack'>";
-
-          output.innerHTML+="<div class ='trackInfo'>"+artist+ " - " +songName +" ("+album+")"+"</div"
-            
+          ".jpg' width=50px height=50px class ='albumTrack'>"+
+          "<div class ='trackInfo'>"+artist+ " - " +songName +" ("+album+")"+"</div></div>"
           }
          
          

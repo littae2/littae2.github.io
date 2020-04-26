@@ -97,7 +97,21 @@ header {
   margin-top: auto;
   padding-bottom: 1%;
 }
+.albumTrack{
+  width:70px;
+  height:auto;
+  justify-self:left;
+}
+.trackInfo{
+  justify-self: flex-end;
+  padding:1%;
+}
+.track{
+  
+  display:flex;
 
+  
+}
 
 @media screen and (min-width: 600px) {
   /* For tablets: */
