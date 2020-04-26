@@ -65,6 +65,24 @@ function topArtists() {
       }
     });
 }
-function topTracks() {}
+function topTracks() {
+  fetch("json/musicv3.json")
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      let artists = Object.keys(data);
+      for (let i = 0; i < artists.length; i++) {
+        let artistsData = data[artists[i]];
+        let artist = artists[i];
+        let artistdata= data[artist]
+      console.log(artistdata)
+
+      
+      }
+
+    });
+  }
+    
 
 topArtists();

@@ -42,8 +42,8 @@
               "lastListened": "2019-03-16T18:31"
             }
           }
-        }
-      },
+        },
+    
       
         "Tell Me You Love Me": {
           "edition": "deluxe",
@@ -113,6 +113,7 @@
             }
           }
         }
+      }
       },
      
   
@@ -153,7 +154,7 @@
               "lastListened": "2020-03-16T18:31"
             }
           }
-        }
+        
       },
       
         "Into The Wild Life": {
@@ -270,6 +271,7 @@
             }
           }
         }
+      }
 },
      
  
@@ -339,7 +341,7 @@
               "lastListened": "2020-03-16T18:31"
             }
           }
-        }
+        
       },
       
         "Glory Days": {
@@ -423,7 +425,7 @@
           }
         }
       
-     
+      }
   },
 
   "Meghan Trainor": {
@@ -511,7 +513,7 @@
               "lastListened": "2020-03-16T18:31"
             }
           }
-        }
+        
       },
       
         "Light Me Up": {
@@ -548,7 +550,7 @@
           }
         }
       
-     
+      }
   },
 
   "Tori Kelly": {
@@ -582,7 +584,7 @@
               "lastListened": "2020-03-16T18:31"
             }
           }
-        }
+        
       },
       
         "Hiding Place": {
@@ -683,7 +685,7 @@
             }
           }
         }
-      
+      }
      
   },
 
