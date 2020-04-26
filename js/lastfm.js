@@ -65,24 +65,45 @@ function topArtists() {
       }
     });
 }
-function topTracks() {
+function allTracks() {
   fetch("json/musicv3.json")
     .then((response) => {
       return response.json();
     })
     .then((data) => {
+      let output = document.getElementById("TrackList");
       let artists = Object.keys(data);
+
       for (let i = 0; i < artists.length; i++) {
         let artistsData = data[artists[i]];
-        let artist = artists[i];
-        let artistdata= data[artist]
-      console.log(artistdata)
+        var artist = artists[i];
 
-      
+        let artistdata = data[artist];
+        var albumdata = artistdata["album"];
+        var albums = Object.keys(albumdata);
+
+        for (let j = 0; j < albums.length; j++) {
+          var album = albums[j];
+          let albumName = data[artist].album;
+          let songs = Object.keys(albumName[album].song);
+          //console.log(songs)
+          //console.log(albumName[album].song)
+          for (let s = 0; s < songs.length; s++) {
+            let songName = songs[s];
+            let albumImage = albumName[album].image
+            console.log(albumImage)
+            output.innerHTML +=
+              "<img src:'" +
+              albumImage +
+              "' class = 'albumImages' width: 100px height:100px >";
+            // "<div class ='trackInfo'>"+artist+ " - " +songName +" ("+album+")"+"</div"
+            //console.log(artist+ " - " +songName +" ("+album+")");
+            // console.log(albumName[album].image)
+          }
+        }
       }
-
     });
-  }
-    
+}
 
+allTracks();
 topArtists();

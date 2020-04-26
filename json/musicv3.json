@@ -7,10 +7,8 @@
         "Avril Lagivgne": {
           "edition": "standard",
           "year": 2013,
-          "image": {
-            "src": "../img/music/AvrilLavigne_AvrilLavigne",
-            "name": "AvrilLavigne_AvrilLavigne"
-          },
+          "image":  "../img/music/AvrilLavigne_AvrilLavigne",
+            
           "song": {
             "Bad Girl": {
               "explicit": true,
@@ -31,10 +29,8 @@
         "Confident": {
           "editon": "deluxe",
           "year": 2015,
-          "image": {
-            "src": "..img/music/demiLovato_Confident",
-            "name": "DemiLovato_Confident"
-          },
+          "image": "..img/music/demiLovato_Confident",
+            
           "song": {
             "Confident": {
               "explicit": true,
@@ -48,10 +44,8 @@
         "Tell Me You Love Me": {
           "edition": "deluxe",
           "year": 2017,
-          "image": {
-            "src": "../img/music/demiLovato_TellMeYouLoveMe",
-            "name": "DemiLovato_TellMeYouLoveMe"
-          },
+          "image":"../img/music/demiLovato_TellMeYouLoveMe",
+           
           "song": {
             "Sorry Not Sorry": {
               "explicit": true,
@@ -126,10 +120,8 @@
         "Halestomrm": {
           "edition": "deluxe",
           "year": 2009,
-          "image": {
-            "src": "../img/music/halestorm_halestorm",
-            "name": "Halestorm_Halestorm"
-          },
+          "image": "../img/music/halestorm_halestorm",
+           
           "song": {
             "It's Not You": {
               "explicit": false,
@@ -161,10 +153,8 @@
           "explicit": false,
           "edition": "deluxe",
           "year": 2015,
-          "image": {
-            "src": "../img/music/halestorm_intothewild_",
-            "name": "Halestorm_IntoTheWildLife"
-          },
+          "image": "../img/music/halestorm_intothewild_",
+           
           "song": {
             "I Am The Fire": {
               "explicit": false,
@@ -214,10 +204,8 @@
         "The Strange Case Of...": {
           "edition": "deluxe",
           "year": 2012,
-          "image": {
-            "src": "../img/music/halestorm_strangecaseof",
-            "name": "Halestorm_StrangeCaseOf"
-          },
+          "image": "../img/music/halestorm_strangecaseof",
+           
           "song": {
             "Love Bites (So Do I)": {
               "explicit": false,
@@ -253,10 +241,8 @@
         "Vicious": {
           "edition": "standard",
           "year": 2018,
-          "image": {
-            "src": "../img/music/halestorm_vicious",
-            "name": "Halestorm_Vicious"
-          },
+          "image": "../img/music/halestorm_vicious",
+            
           "song": {
             "Uncomfortable": {
               "explicit": true,
@@ -284,10 +270,8 @@
         "Get Weird": {
           "edition": "deluxe",
           "year": 2015,
-          "image": {
-            "src": "../img/music/littleMix_GetWeirdDeluxe",
-            "name": "LittleMix_GetWeird"
-          },
+          "image": "../img/music/littleMix_GetWeirdDeluxe",
+            
           "song": {
             "Black Magic": {
               "explicit": false,
@@ -347,10 +331,8 @@
         "Glory Days": {
           "edition": "Platinum",
           "year": 2016,
-          "image": {
-            "src": "../img/music/LittleMix_GloryDaysPlatinum",
-            "name": "LittleMix_GloryDays"
-          },
+          "image": "../img/music/LittleMix_GloryDaysPlatinum",
+            
           "song": {
             "Shout Out To My Ex": {
               "explicit": false,
@@ -400,10 +382,8 @@
         "Salute": {
           "edition": "deluxe",
           "year": 2013,
-          "image": {
-            "src": "../img/music/littleMix_SaluteDeluxe",
-            "name": "LittleMix_Salute"
-          },
+          "image":"../img/music/littleMix_SaluteDeluxe",
+           
           "song": {
             "Salute": {
               "explicit": false,
@@ -436,10 +416,8 @@
         "Thank You": {
           "edition": "deluxe",
           "year": 2016,
-          "image": {
-            "src": "../img/music/meghanTrainor_ThankYouDeluxe",
-            "name": "MeghanTrainor_ThankYou"
-          },
+          "image": "../img/music/meghanTrainor_ThankYouDeluxe",
+          
           "song": {
             "Watch Me Do": {
               "explicit": false,
@@ -484,10 +462,8 @@
         "Going To Hell": {
           "edition": "standard",
           "year": 2014,
-          "image": {
-            "src": "../img/music/theprettyreckless_gointohell",
-            "name": "ThePrettyReckless_GoingToHell"
-          },
+          "image": "../img/music/theprettyreckless_gointohell",
+           
           "song": {
             "Going To Hell": {
               "explicit": false,
@@ -519,10 +495,8 @@
         "Light Me Up": {
           "edition": "standard",
           "year": 2010,
-          "image": {
-            "src": "../img/music/theprettyreckless_lightmeup",
-            "name": "ThePrettyReckless_LightMeUp"
-          },
+          "image": "../img/music/theprettyreckless_lightmeup",
+            
           "song": {
             "My Medicine": {
               "explicit": false,
@@ -561,10 +535,8 @@
         "Handmade Songs": {
           "edition": "standard",
           "year": 2012,
-          "image": {
-            "src": "../img/music/toriKelly_HandmadeSongs",
-            "name": "ToriKelly_HandmadeSongs"
-          },
+          "image": "../img/music/toriKelly_HandmadeSongs",
+           
           "song": {
             "All In My Head": {
               "explicit": false,
@@ -590,10 +562,8 @@
         "Hiding Place": {
           "edition": "standard",
           "year": 2018,
-          "image": {
-            "src": "../img/music/toriKelly_HidingPlace",
-            "name": "ToriKelly_HidingPlace"
-          },
+          "image":"../img/music/toriKelly_HidingPlace",
+           
           "song": {
             "Questions": {
               "explicit": false,
@@ -613,10 +583,8 @@
         "Inspired By True Events": {
           "edition": "deluxe",
           "year": 2019,
-          "image": {
-            "src": "../img/music/toriKelly_inspiredByTrueEvents",
-            "name": "ToriKelly_InspiredByTrueEvents"
-          },
+          "image":"../img/music/toriKelly_inspiredByTrueEvents",
+            
           "song": {
             "Coffee": {
               "explicit": false,
@@ -697,10 +665,8 @@
         "Zaz": {
           "edition": "standard",
           "year": 2010,
-          "image": {
-            "src": "../img/music/Zaz_Zaz",
-            "name": "Zaz_Zaz"
-          },
+          "image":"../img/music/Zaz_Zaz",
+           
           "song": {
             "Les Passants": {
               "explicit": false,
