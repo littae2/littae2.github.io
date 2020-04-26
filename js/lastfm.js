@@ -86,19 +86,18 @@ function allTracks() {
           var album = albums[j];
           let albumName = data[artist].album;
           let songs = Object.keys(albumName[album].song);
-          //console.log(songs)
-          //console.log(albumName[album].song)
+          
           for (let s = 0; s < songs.length; s++) {
             let songName = songs[s];
             let albumImage = albumName[album].image
-            console.log(albumImage)
+            
             output.innerHTML +=
-              "<img src:'" +
-              albumImage +
-              "' class = 'albumImages' width: 100px height:100px >";
-            // "<div class ='trackInfo'>"+artist+ " - " +songName +" ("+album+")"+"</div"
-            //console.log(artist+ " - " +songName +" ("+album+")");
-            // console.log(albumName[album].image)
+          "<img  src='" +
+          albumImage +
+          "' width: 20px height: 20px class ='albumTrack'>";
+
+          output.innerHTML+="<div class ='trackInfo'>"+artist+ " - " +songName +" ("+album+")"+"</div"
+            
           }
         }
       }
