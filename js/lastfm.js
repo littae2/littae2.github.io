@@ -47,18 +47,18 @@ function topTracks() {
     .then((data) => {
       let output = document.getElementById("TrackList");
       let artists = Object.keys(data);
-      var fullList = [];
+      let fullList = [];
 
       for (let i = 0; i < artists.length; i++) {
         let artistsData = data[artists[i]];
-        var artist = artists[i];
+        let artist = artists[i];
 
         let artistdata = data[artist];
-        var albumdata = artistdata["album"];
-        var albums = Object.keys(albumdata);
+        let albumdata = artistdata["album"];
+        let albums = Object.keys(albumdata);
 
         for (let j = 0; j < albums.length; j++) {
-          var album = albums[j];
+          let album = albums[j];
           let albumName = data[artist].album;
           let songsObject = albumName[album].song;
           let songs = Object.keys(songsObject);
@@ -78,7 +78,6 @@ function topTracks() {
         top20.push(fullList[i]);
       }
 
-      console.log(top20);
       for (let i = 0; i < top20.length; i++) {
         let albumImage = top20[i].albumImage;
         let artist = top20[i].artist;
@@ -112,17 +111,17 @@ function recentTracks() {
     .then((data) => {
       let output = document.getElementById("RecentList");
       let artists = Object.keys(data);
-      var fullList = [];
+      let fullList = [];
 
       for (let i = 0; i < artists.length; i++) {
-        var artist = artists[i];
+        let artist = artists[i];
 
         let artistdata = data[artist];
-        var albumdata = artistdata["album"];
-        var albums = Object.keys(albumdata);
+        let albumdata = artistdata["album"];
+        let albums = Object.keys(albumdata);
 
         for (let j = 0; j < albums.length; j++) {
-          var album = albums[j];
+          let album = albums[j];
           let albumName = data[artist].album;
           let songsObject = albumName[album].song;
           let songs = Object.keys(songsObject);
@@ -133,7 +132,8 @@ function recentTracks() {
             let albumImage = albumName[album].image;
             let lastListen = songObject.lastListened;
 
-            var lastTime = new Date(lastListen);
+            let lastTime = new Date(lastListen);
+            let dateDiff = returnTimeDiff(lastTime);
 
             let listened = songObject.timesListened;
             fullList.push({
@@ -143,6 +143,7 @@ function recentTracks() {
               listened,
               albumImage,
               lastTime,
+              dateDiff,
             });
           }
         }
@@ -159,7 +160,7 @@ function recentTracks() {
         let songName = top20[i].songName;
         let album = top20[i].album;
         let listens = top20[i].listened;
-        let lastTime = top20[i].lastTime;
+        let lastTime = top20[i].dateDiff;
 
         output.innerHTML +=
           "<div class = 'track'>" +
@@ -177,6 +178,34 @@ function recentTracks() {
           "</div></div>";
       }
     });
+}
+
+function returnTimeDiff(dateTimeIn) {
+  let previous = new Date(dateTimeIn);
+  let today = new Date();
+  let date =
+    today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+  let time =
+    today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  let dateTime = date + " " + time;
+  let current = new Date(dateTime);
+
+  let timeDiff = current.getTime() - previous.getTime();
+  let dateDiff = timeDiff / (1000 * 3600 * 24);
+  let dateRslt = dateDiff.toFixed();
+  if (dateRslt <= 0 || dateRslt == "NaN") {
+    return "today";
+  }
+  if (dateRslt == 1) {
+    return "yesterday";
+  }
+  if (dateRslt >= 365) {
+    return "over a year ago";
+  } else {
+    return dateRslt + " days ago";
+  }
+
+  //return dateRslt;
 }
 recentTracks();
 topArtists();
