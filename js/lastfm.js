@@ -1,3 +1,12 @@
+/*
+
+$(document).ready(function() {
+  $(".albumTrack").click(_ => {
+    console.log("I've been clicked!");
+  })
+  })
+*/
+
 function topArtists() {
   fetch("json/musicv3.json")
     .then((response) => {
@@ -46,6 +55,7 @@ function topTracks() {
     })
     .then((data) => {
       let output = document.getElementById("TrackList");
+
       let artists = Object.keys(data);
       let fullList = [];
 
@@ -91,6 +101,7 @@ function topTracks() {
           albumImage +
           ".jpg' width=50px height=50px class ='albumTrack'>" +
           "<div class ='trackInfo'>" +
+          "<div class = 'heart'></div>" +
           artist +
           " - " +
           songName +
@@ -99,6 +110,23 @@ function topTracks() {
           ") Listened: " +
           listens +
           "</div></div>";
+      }
+
+      let heartElements = document.getElementsByClassName("heart");
+      for (let j = 0; j < heartElements.length; j++) {
+        heartElements[j].innerHTML =
+          "<i class='far fa-heart' id='heart" + j + "'></i>";
+      }
+      let heart = document.getElementsByClassName("heart");
+      for (let i = 0; i < heart.length; i++) {
+        heart[i].addEventListener("click", function () {
+          if (
+            (heartElements[i].innerHTML =
+              "<i class='far fa-heart' id='heart" + i + "'></i>")
+          )
+            heartElements[i].innerHTML =
+              "<i class='fas fa-heart' id='heart" + i + "'></i>";
+        });
       }
     });
 }
@@ -204,9 +232,7 @@ function returnTimeDiff(dateTimeIn) {
   } else {
     return dateRslt + " days ago";
   }
-
-  //return dateRslt;
 }
-recentTracks();
-topArtists();
+//recentTracks();
+//topArtists();
 topTracks();
