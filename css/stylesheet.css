@@ -41,21 +41,28 @@ header {
   filter: grayscale(50%);
 }
 .contactForm input {
-  width: 40%;
+  width: 70%;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
+  font-size: 100%;
+}
+#pageInfo{
+  text-align: center;
+  font-size: 200%;
 }
 .contactForm {
-  padding: 10%;
+  padding: 5%;
   padding-left: 30%;
-
+font-size: 200%;
   justify-content: center;
 }
 .contactForm textarea {
-  width: 40%;
-  height: 15%;
+  font-family: "Hind";
+  width: 70%;
+  height: 35%;
+  font-size: 100%;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #ccc;
