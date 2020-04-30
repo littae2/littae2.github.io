@@ -214,7 +214,7 @@ function recentTracks() {
           artist +
           " (" +
           album +
-          ") <div clas'listen'> Last listened: " +
+          ") <div class='listen'> Last listened: " +
           lastTime +
           "</div></div></div>";
       }

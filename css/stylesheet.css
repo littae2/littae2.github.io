@@ -107,10 +107,13 @@ header {
   width: 40%;
   flex-direction: column;
 }
-
+.listen{
+  text-align: end;
+}
 .trackData {
   width: 100%;
   margin: 1%;
+  font-size: 150%;
 }
 .track {
   display: flex;
@@ -136,12 +139,13 @@ header {
   height: 5%;
 }
 .barFill {
+  margin-left: auto;
   background-color: white;
 }
 .barContainer {
   width: 40%;
   display: flex;
-  text-align: center;
+  direction: unset;
 }
 
 .heart {
