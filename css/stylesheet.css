@@ -1,7 +1,7 @@
 .column {
   width: 100%;
 }
-footer{
+footer {
   background-color: black;
   color: white;
   text-align: center;
@@ -40,17 +40,17 @@ header {
   color: white;
   filter: grayscale(50%);
 }
-.contactForm input{
+.contactForm input {
   width: 40%;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
 }
-.contactForm{
-  padding:10%;
+.contactForm {
+  padding: 10%;
   padding-left: 30%;
-  
+
   justify-content: center;
 }
 .contactForm textarea {
@@ -97,20 +97,55 @@ header {
   margin-top: auto;
   padding-bottom: 1%;
 }
-.albumTrack{
-  width:70px;
-  height:auto;
-  justify-self:left;
+.albumTrack {
+  width: 10%;
+  height: 10%;
+  justify-self: left;
 }
-.trackInfo{
-  justify-self: flex-end;
-  padding:1%;
-}
-.track{
+.trackInfo {
   
-  display:flex;
+  padding: 1%;
+  width: 45%;
+  flex-direction: column;
+  margin-top: auto;
 
+}
+.track {
+  display: flex;
+  flex-direction: row;
+  margin:1%;
+}
+.barGraph {
+  display: flex;
+  margin:1%;
+  border-color: black;
+  background: rgb(186,133,182);
+background: linear-gradient(90deg, rgba(186,133,182,1) 0%, rgba(115,16,130,1) 17%, rgba(141,141,221,1) 41%, rgba(0,212,255,1) 63%, rgba(116,224,181,1) 87%);
+  border-style: solid;
+  border-radius: 5%;
+  width:80%;
+  height:5%;
+}
+.barFill {
+  background-color:white;
   
+  
+}
+.barContainer{
+  width:40%;
+  display: flex;
+  text-align: center;
+}
+
+.heart{
+  display:flex;
+  justify-items: center;
+  width:5%;
+  margin-left: auto;
+  
+}
+.listenCount{
+  text-align: center;
 }
 
 @media screen and (min-width: 600px) {
@@ -119,6 +154,7 @@ header {
     width: 50%;
   }
 }
+
 
 @media screen and (min-width: 1024px) {
   /* For desktop: */

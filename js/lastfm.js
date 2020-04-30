@@ -78,7 +78,15 @@ function topTracks() {
             let songObject = songsObject[songName];
             let albumImage = albumName[album].image;
             let listened = songObject.timesListened;
-            fullList.push({ artist, album, songName, listened, albumImage });
+            let explicit = songObject.explicit;
+            fullList.push({
+              artist,
+              album,
+              songName,
+              listened,
+              albumImage,
+              explicit,
+            });
           }
         }
       }
@@ -94,6 +102,7 @@ function topTracks() {
         let songName = top20[i].songName;
         let album = top20[i].album;
         let listens = top20[i].listened;
+        let explicit = top20[i].explicit;
 
         output.innerHTML +=
           "<div class = 'track'>" +
@@ -101,31 +110,45 @@ function topTracks() {
           albumImage +
           ".jpg' width=50px height=50px class ='albumTrack'>" +
           "<div class ='trackInfo'>" +
-          "<div class = 'heart'></div>" +
-          artist +
-          " - " +
           songName +
+          " - " +
+          artist +
           " (" +
           album +
-          ") Listened: " +
-          listens +
-          "</div></div>";
+          ")" +
+          "</div><div class='barContainer'></div><div class = 'heart'></div></div>";
+        let max = top20[0].listened;
+      }
+      let container = document.getElementsByClassName("barContainer");
+      for (let i = 0; i < container.length; i++) {
+        container[i].innerHTML = "<div class='barGraph' ></div>";
+
+        container[i].innerHTML +=
+          "<div class ='listenCount'>" + top20[i].listened + "</div>";
+      }
+      let barBoarder = document.getElementsByClassName("barGraph");
+      for (let i = 0; i < barBoarder.length; i++) {
+        let max = top20[0].listened;
+        let current = top20[i].listened;
+        let size = ((100 / max) * current).toFixed();
+        let empty = 100 - size;
+        console.log(size);
+
+        barBoarder[i].innerHTML = "<div class='barFill'></div>";
+        let fill = document.getElementsByClassName("barFill");
+        fill[i].style.color = "grey";
+        fill[i].style.width = empty + "%";
       }
 
       let heartElements = document.getElementsByClassName("heart");
       for (let j = 0; j < heartElements.length; j++) {
-        heartElements[j].innerHTML =
-          "<i class='far fa-heart' id='heart" + j + "'></i>";
+        heartElements[j].innerHTML = "<i class='far fa-heart'></i>";
       }
       let heart = document.getElementsByClassName("heart");
       for (let i = 0; i < heart.length; i++) {
         heart[i].addEventListener("click", function () {
-          if (
-            (heartElements[i].innerHTML =
-              "<i class='far fa-heart' id='heart" + i + "'></i>")
-          )
-            heartElements[i].innerHTML =
-              "<i class='fas fa-heart' id='heart" + i + "'></i>";
+          if ((heartElements[i].innerHTML = "<i class='far fa-heart'></i>"))
+            heartElements[i].innerHTML = "<i class='fas fa-heart'></i>";
         });
       }
     });
