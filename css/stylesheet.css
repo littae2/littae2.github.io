@@ -103,53 +103,54 @@ header {
   justify-self: left;
 }
 .trackInfo {
-  
   margin: 2%;
   width: 40%;
   flex-direction: column;
-  
-
 }
 
-.trackData{
-  width:100%;
-  margin:1%;
+.trackData {
+  width: 100%;
+  margin: 1%;
 }
 .track {
   display: flex;
   flex-direction: row;
-  margin:1%;
+  margin: 1%;
 }
 .barGraph {
   display: flex;
-  margin:1%;
+  margin: 1%;
   border-color: black;
-  background: rgb(186,133,182);
-background: linear-gradient(90deg, rgba(186,133,182,1) 0%, rgba(115,16,130,1) 17%, rgba(141,141,221,1) 41%, rgba(0,212,255,1) 63%, rgba(116,224,181,1) 87%);
+  background: rgb(186, 133, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(186, 133, 182, 1) 0%,
+    rgba(115, 16, 130, 1) 17%,
+    rgba(141, 141, 221, 1) 41%,
+    rgba(0, 212, 255, 1) 63%,
+    rgba(116, 224, 181, 1) 87%
+  );
   border-style: solid;
   border-radius: 5%;
-  width:80%;
-  height:5%;
+  width: 80%;
+  height: 5%;
 }
 .barFill {
-  background-color:white;
-  
-  
+  background-color: white;
 }
-.barContainer{
-  width:40%;
+.barContainer {
+  width: 40%;
   display: flex;
   text-align: center;
 }
 
-.heart{
-  display:flex;
+.heart {
+  display: flex;
   justify-items: center;
-  width:5%;
+  width: 5%;
   margin-left: auto;
-  
 }
-.listenCount{
+.listenCount {
   text-align: center;
 }
 
@@ -159,7 +160,6 @@ background: linear-gradient(90deg, rgba(186,133,182,1) 0%, rgba(115,16,130,1) 17
     width: 50%;
   }
 }
-
 
 @media screen and (min-width: 1024px) {
   /* For desktop: */

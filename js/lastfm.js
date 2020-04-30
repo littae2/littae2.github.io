@@ -99,7 +99,7 @@ function topTracks() {
           "<div class = 'track'>" +
           "<img  src='" +
           albumImage +
-          ".jpg' width=50px height=50px class ='albumTrack'>" +
+          " width=50px height=50px class ='albumTrack'>" +
           "<div class ='trackInfo'>" +
           songName +
           " - " +
@@ -207,10 +207,9 @@ function recentTracks() {
           "<div class = 'track'>" +
           "<img  src='" +
           albumImage +
-          ".jpg' width=50px height=50px class ='albumTrack'>" +
+          "width=50px height=50px class ='albumTrack'>" +
           "<div class ='trackData'>" +
-          songName+
-          
+          songName +
           " - " +
           artist +
           " (" +
