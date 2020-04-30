@@ -1,12 +1,3 @@
-/*
-
-$(document).ready(function() {
-  $(".albumTrack").click(_ => {
-    console.log("I've been clicked!");
-  })
-  })
-*/
-
 function topArtists() {
   fetch("json/musicv3.json")
     .then((response) => {
@@ -132,7 +123,6 @@ function topTracks() {
         let current = top20[i].listened;
         let size = ((100 / max) * current).toFixed();
         let empty = 100 - size;
-        console.log(size);
 
         barBoarder[i].innerHTML = "<div class='barFill'></div>";
         let fill = document.getElementsByClassName("barFill");
@@ -218,15 +208,16 @@ function recentTracks() {
           "<img  src='" +
           albumImage +
           ".jpg' width=50px height=50px class ='albumTrack'>" +
-          "<div class ='trackInfo'>" +
-          artist +
+          "<div class ='trackData'>" +
+          songName+
+          
           " - " +
-          songName +
+          artist +
           " (" +
           album +
-          ") Last Listened: " +
+          ") <div clas'listen'> Last listened: " +
           lastTime +
-          "</div></div>";
+          "</div></div></div>";
       }
     });
 }
@@ -256,6 +247,6 @@ function returnTimeDiff(dateTimeIn) {
     return dateRslt + " days ago";
   }
 }
-//recentTracks();
-//topArtists();
+recentTracks();
+topArtists();
 topTracks();
