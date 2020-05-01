@@ -219,8 +219,19 @@ function recentTracks() {
           " (" +
           album +
           ") <div class='listen'> Last listened: " +
-          lastTime +
+          lastTime +"<div class = 'heart'></div>"+
           "</div></div></div>";
+      }
+      let heartElements = document.getElementsByClassName("heart");
+      for (let j = 0; j < heartElements.length; j++) {
+        heartElements[j].innerHTML = "<i class='far fa-heart'></i>";
+      }
+      let heart = document.getElementsByClassName("heart");
+      for (let i = 0; i < heart.length; i++) {
+        heart[i].addEventListener("click", function () {
+          if ((heartElements[i].innerHTML = "<i class='far fa-heart'></i>"))
+            heartElements[i].innerHTML = "<i class='fas fa-heart'></i>";
+        });
       }
     });
 }
