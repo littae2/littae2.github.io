@@ -123,9 +123,11 @@ header {
 }
 /** Both recent tracks and top 20 */
 .albumTrack {
+  
   width: 20%;
-  height: 10%;
+  height: auto;
   justify-self: left;
+  max-width: 230px;
 }
 .track {
   display: flex;
