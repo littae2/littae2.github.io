@@ -212,7 +212,6 @@ function recentTracks() {
           "<img  src='" +
           albumImage +
           "' width=50px height=50px class ='albumTrack'>" +
-          "<div class = 'heart'></div>" +
           "<div class ='trackData'>" +
           songName +
           " - " +
@@ -221,7 +220,7 @@ function recentTracks() {
           album +
           ") <div class='listen'> Last listened: " +
           lastTime +
-          "</div></div></div>";
+          "</div></div><div class = 'heart'></div> +</div>";
       }
       let heartElements = document.getElementsByClassName("heart");
       for (let j = 0; j < heartElements.length; j++) {
@@ -268,7 +267,18 @@ function enterComment() {
   let replyArea = document.getElementById("replies");
   button.addEventListener("click", function () {
     let message = document.getElementById("textBox").value;
-    replyArea.innerText = message;
+    let today = new Date();
+    let date =
+      today.getFullYear() +
+      "-" +
+      (today.getMonth() + 1) +
+      "-" +
+      today.getDate();
+    let time =
+      today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    let dateTime = date + " " + time;
+    let current = new Date(dateTime);
+    replyArea.innerText = current + "\n" + message;
   });
 }
 recentTracks();

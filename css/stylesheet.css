@@ -171,7 +171,6 @@ header {
   display: flex;
   justify-items: center;
   font-size: 150%;
-  
 }
 .listenCount {
   text-align: center;
@@ -180,7 +179,7 @@ header {
 .trackData {
   width: 100%;
   margin: 1%;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 /*top artists */
@@ -226,6 +225,45 @@ header {
 }
 
 /* comment section*/
+#comments {
+  padding: 10%;
+  padding-top: 0%;
+  justify-content: center;
+}
+
+.commentsForm {
+  font-family: "Hind";
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+  justify-content: center;
+
+  font-size: 150%;
+  padding: 5%;
+  background-color: rgb(241, 237, 237);
+}
+#textBox {
+  font-family: "Hind";
+
+  width: 100%;
+}
+
+#commentSubmit {
+  font-family: "Hind";
+  margin-left: auto;
+  font-size: 100%;
+}
+#replies {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  margin-top: 10%;
+  margin: 1%;
+  background-color: rgb(171, 204, 204);
+  padding: 2%;
+  border-radius: 5%;
+  font-size: 150%;
+}
 
 @media screen and (min-width: 600px) {
   /* For tablets: */
