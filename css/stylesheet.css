@@ -13,14 +13,13 @@ html {
   font-family: "Hind";
 }
 .nav a {
-  
   margin: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
   font-family: "Hind";
   font-size: 200%;
   color: white;
-  
+
   text-decoration-line: none;
   background-color: black;
   border: none;
@@ -123,11 +122,9 @@ header {
 }
 /** Both recent tracks and top 20 */
 .albumTrack {
-  
   width: 20%;
   height: auto;
   justify-self: left;
-  
 }
 .track {
   display: flex;
@@ -178,7 +175,6 @@ header {
 }
 .listenCount {
   text-align: center;
-  
 }
 /*recent tracks */
 .trackData {
@@ -242,7 +238,6 @@ header {
     width: 33.333%;
   }
 
-
   #ArtistList {
     justify-self: center;
     justify-content: center;
@@ -258,13 +253,10 @@ header {
     font-size: 100%;
   }
   .barGraph {
-    height: 20%;
+    height: 10%;
   }
   .albumTrack {
-  
     width: 225px;
     height: auto;
-
-    
   }
 }
