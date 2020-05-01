@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css?family=Hind&display=swap"
       rel="stylesheet"
     />
-    
   </head>
 
   <body>
@@ -24,44 +23,40 @@
     <div class="contactBanner">
       <h1>Contact Us</h1>
     </div>
-    <div id ="pageInfo">
-    <p>If you wish to contact us, please fill in the following form:</p>
-  </div>
-        <form class="contactForm">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+    <div id="pageInfo">
+      <p>If you wish to contact us, please fill in the following form:</p>
+    </div>
+    <form class="contactForm">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
 
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" /><br />
 
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" /><br />
 
-            <label for="phoneNum">Phone Number:</label><br>
-            <input type="text" id="phoneNum" name="phoneNum"><br>
+      <label for="phoneNum">Phone Number:</label><br />
+      <input type="text" id="phoneNum" name="phoneNum" /><br />
 
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject"><br>
+      <label for="subject">Subject:</label><br />
+      <input type="text" id="subject" name="subject" /><br />
 
-            <label for="message">Message:</label><br>
-            
-            <textarea id="message" name="message"></textarea><br>
-            
-            <input type="submit" value="Submit"  onclick= windowclick()>
+      <label for="message">Message:</label><br />
 
+      <textarea id="message" name="message"></textarea><br />
 
-          </form> 
-    
-  </body>
-  <footer class="footer">
-    Last modified: 30th April 2020 3:00PM (UTC +12:00)
-  </footer>
-  <script>
-  function windowclick(){
-    var thanks="Thank you for your message.\nOur team will be in contact with you soon.";
-    window.alert(thanks);
-    
-  }
+      <input type="submit" value="Submit" onclick="windowclick()" />
+    </form>
+    <footer class="footer">
+      Last modified: 30th April 2020 3:00PM (UTC +12:00)
+    </footer>
+    <script>
+      function windowclick() {
+        var thanks =
+          "Thank you for your message.\nOur team will be in contact with you soon.";
+        window.alert(thanks);
+      }
     </script>
- 
+  </body>
 </html>
