@@ -104,6 +104,7 @@ function topTracks() {
           "<img  src='" +
           albumImage +
           "' width=50px height=50px class ='albumTrack'>" +
+         
           "<div class ='trackInfo'>" +
           songName +
           " - " +
@@ -209,9 +210,11 @@ function recentTracks() {
 
         output.innerHTML +=
           "<div class = 'track'>" +
+          
           "<img  src='" +
           albumImage +
           "' width=50px height=50px class ='albumTrack'>" +
+          "<div class = 'heart'></div>"+
           "<div class ='trackData'>" +
           songName +
           " - " +
@@ -219,7 +222,7 @@ function recentTracks() {
           " (" +
           album +
           ") <div class='listen'> Last listened: " +
-          lastTime +"<div class = 'heart'></div>"+
+          lastTime +
           "</div></div></div>";
       }
       let heartElements = document.getElementsByClassName("heart");
@@ -260,6 +263,13 @@ function returnTimeDiff(dateTimeIn) {
   } else {
     return dateRslt + " days ago";
   }
+}
+function enterComment(){
+  let button = document.getElementById("commentSubmit");
+  let textBox = document.getElementById("textBox");
+  button.addEventListener("click", function(){
+   //console.log(texBox)
+  })
 }
 recentTracks();
 topArtists();

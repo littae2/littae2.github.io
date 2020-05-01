@@ -167,11 +167,11 @@ header {
   direction: unset;
 }
 
-.heart {
+.heart i {
   display: flex;
   justify-items: center;
-  width: 5%;
-  margin-left: auto;
+  font-size: 150%;
+  
 }
 .listenCount {
   text-align: center;
