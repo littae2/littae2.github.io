@@ -268,7 +268,7 @@ function enterComment(){
   let button = document.getElementById("commentSubmit");
   let textBox = document.getElementById("textBox");
   button.addEventListener("click", function(){
-   console.log(texBox)
+   console.log(texBox.message)
   })
 }
 recentTracks();
