@@ -220,7 +220,7 @@ function recentTracks() {
           album +
           ") <div class='listen'> Last listened: " +
           lastTime +
-          "</div></div><div class = 'heart'></div> +</div>";
+          "</div></div><div class = 'heart'></div></div>";
       }
       let heartElements = document.getElementsByClassName("heart");
       for (let j = 0; j < heartElements.length; j++) {
