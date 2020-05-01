@@ -11,24 +11,24 @@ footer {
 }
 html {
   font-family: "Hind";
-  display: flex;
 }
 .nav a {
-  background-color: black;
-  border: none;
-  padding: 5%;
-  text-decoration-line: none;
+  
   margin: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
   font-family: "Hind";
   font-size: 200%;
   color: white;
-
-  justify-content: center;
+  
+  text-decoration-line: none;
+  background-color: black;
+  border: none;
 }
-nav {
-  justify-content: center;
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
 #Top {
   background-color: black;
@@ -36,6 +36,8 @@ nav {
 header {
   background-color: black;
 }
+
+/** Contact page **/
 .contactBanner {
   background-image: url("../img/keyboard.jpg");
   background-size: 100%;
@@ -43,6 +45,11 @@ header {
   padding: 7%;
   color: white;
   filter: grayscale(50%);
+}
+#contactfooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .contactForm input {
@@ -81,8 +88,9 @@ header {
   font-size: 600%;
   padding-bottom: 3%;
 }
+
+/** Home page header **/
 .HomeBanner {
-  /* background-image: url("../img/header.jpg");*/
   background-image: url("../img/gitar.jpg");
   filter: grayscale(50%);
   background-size: 100%;
@@ -109,32 +117,28 @@ header {
   margin-top: auto;
   padding-bottom: 1%;
 }
+/**  all song sections */
 .tittle {
   font-size: 300%;
 }
+/** Both recent tracks and top 20 */
 .albumTrack {
   width: 20%;
   height: 10%;
   justify-self: left;
 }
+.track {
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+/*top+ tracks */
 .trackInfo {
   margin: 2%;
   width: 40%;
   flex-direction: column;
   font-size: 150%;
-}
-.listen {
-  text-align: end;
-}
-.trackData {
-  width: 100%;
-  margin: 1%;
-  font-size: 150%;
-}
-.track {
-  display: flex;
-  flex-direction: row;
-  margin: 1%;
+  text-align: start;
 }
 .barGraph {
   display: flex;
@@ -172,8 +176,16 @@ header {
 }
 .listenCount {
   text-align: center;
+  
+}
+/*recent tracks */
+.trackData {
+  width: 100%;
+  margin: 1%;
+  font-size: 200%;
 }
 
+/*top artists */
 * {
   box-sizing: border-box;
 }
@@ -185,8 +197,9 @@ header {
   justify-self: center;
   justify-content: center;
   display: flex;
-  width: 70%;
+
   flex-flow: wrap;
+  margin: 0%;
 }
 
 .image {
@@ -222,16 +235,27 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
- 
   /* For desktop: */
   .column {
     width: 33.333%;
   }
-  .nav a {
-    flex-flow: row;
+
+
+  #ArtistList {
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
   }
-}
-.nav {
-  display: flex;
-  justify-content: center;
+  .trackData {
+    font-size: 100%;
+  }
+  .trackInfo {
+    font-size: 100%;
+  }
+  .barGraph {
+    height: 20%;
+  }
 }
