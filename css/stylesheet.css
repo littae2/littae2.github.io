@@ -225,6 +225,8 @@ header {
   opacity: 1;
 }
 
+/* comment section*/
+
 @media screen and (min-width: 600px) {
   /* For tablets: */
   .column {
