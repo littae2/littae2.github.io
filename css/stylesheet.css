@@ -127,7 +127,7 @@ header {
   width: 20%;
   height: auto;
   justify-self: left;
-  max-width: 230px;
+  
 }
 .track {
   display: flex;
@@ -259,5 +259,12 @@ header {
   }
   .barGraph {
     height: 20%;
+  }
+  .albumTrack {
+  
+    width: 225px;
+    height: auto;
+
+    
   }
 }
