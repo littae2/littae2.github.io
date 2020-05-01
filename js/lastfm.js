@@ -266,9 +266,9 @@ function returnTimeDiff(dateTimeIn) {
 }
 function enterComment(){
   let button = document.getElementById("commentSubmit");
-  let textBox = document.getElementById("textBox");
+  let message = document.getElementById("textBox").value;
   button.addEventListener("click", function(){
-   console.log(texBox.value)
+   console.log(message)
   })
 }
 recentTracks();
