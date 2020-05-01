@@ -5,13 +5,13 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  
 }
-.footer{
+.footer {
   flex-shrink: 0;
 }
 html {
   font-family: "Hind";
+  display: flex;
 }
 .nav a {
   background-color: black;
@@ -44,6 +44,7 @@ header {
   color: white;
   filter: grayscale(50%);
 }
+
 .contactForm input {
   width: 70%;
   box-sizing: border-box;
@@ -52,14 +53,14 @@ header {
   background-color: #f8f8f8;
   font-size: 100%;
 }
-#pageInfo{
+#pageInfo {
   text-align: center;
   font-size: 200%;
 }
 .contactForm {
   padding: 5%;
   padding-left: 30%;
-font-size: 200%;
+  font-size: 200%;
   justify-content: center;
 }
 .contactForm textarea {
@@ -108,7 +109,7 @@ font-size: 200%;
   margin-top: auto;
   padding-bottom: 1%;
 }
-.tittle{
+.tittle {
   font-size: 300%;
 }
 .albumTrack {
@@ -122,7 +123,7 @@ font-size: 200%;
   flex-direction: column;
   font-size: 150%;
 }
-.listen{
+.listen {
   text-align: end;
 }
 .trackData {
@@ -171,6 +172,46 @@ font-size: 200%;
 }
 .listenCount {
   text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+#ArtistList {
+  justify-self: center;
+  justify-content: center;
+  display: flex;
+  width: 70%;
+  flex-flow: wrap;
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
 
 @media screen and (min-width: 600px) {

@@ -162,7 +162,7 @@
 
           "Mayhem": {
             "explicit": false,
-            "timesListened": 1500,
+            "timesListened": 1400,
             "lastListened": "2020-04-20T12:00"
           },
 
@@ -419,23 +419,22 @@
             "explicit": false,
             "timesListened": 180,
             "lastListened": "2020-03-14T12:00"
-          
-        },
+          },
 
-        "Woman Up": {
-          "explicit": false,
-          "timesListened": 130,
-          "lastListened": "2020-03-13T12:00"
-        },
+          "Woman Up": {
+            "explicit": false,
+            "timesListened": 130,
+            "lastListened": "2020-03-13T12:00"
+          },
 
-        "Dance Like Yo Daddy": {
-          "explicit": false,
-          "timesListened": 160,
-          "lastListened": "2020-04-29T12:00"
+          "Dance Like Yo Daddy": {
+            "explicit": false,
+            "timesListened": 160,
+            "lastListened": "2020-04-29T12:00"
+          }
         }
       }
     }
-  }
   },
 
   "The Pretty Reckless": {

@@ -33,9 +33,13 @@ function topArtists() {
       for (let i = 0; i < artistOrder.length; i++) {
         let artist = artistOrder[i];
         output.innerHTML +=
+          "<div class='container'>" +
           "<img  src='" +
           data[artist].artistimg +
-          "' width: 200px height: 200px class='image'>";
+          "' width: 200px height: 200px class='image'>" +
+          " <div class='overlay'>" +
+          artist +
+          "</div> </div>";
       }
     });
 }
