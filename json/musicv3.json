@@ -6,7 +6,7 @@
       "Avril Lagivgne": {
         "edition": "standard",
         "year": 2013,
-        "image": "littae2.github.io/img/Music/AvrilLavigne_AvrilLavigne.jpg",
+        "image": "img/Music/AvrilLavigne_AvrilLavigne.jpg",
 
         "song": {
           "Bad Girl": {
@@ -26,7 +26,7 @@
       "Confident": {
         "editon": "deluxe",
         "year": 2015,
-        "image": "littae2.github.io/img/Music/demiLovato_Confident.jpg",
+        "image": "img/Music/demiLovato_Confident.jpg",
 
         "song": {
           "Confident": {
@@ -40,7 +40,7 @@
       "Tell Me You Love Me": {
         "edition": "deluxe",
         "year": 2017,
-        "image": "littae2.github.io/img/Music/demiLovato_TellMeYouLoveMe.jpg",
+        "image": "img/Music/demiLovato_TellMeYouLoveMe.jpg",
 
         "song": {
           "Sorry Not Sorry": {
@@ -113,7 +113,7 @@
       "Halestorm": {
         "edition": "deluxe",
         "year": 2009,
-        "image": "littae2.github.io/img/Music/halestorm_halestorm.jpg",
+        "image": "img/Music/halestorm_halestorm.jpg",
 
         "song": {
           "It's Not You": {
@@ -145,7 +145,7 @@
         "explicit": false,
         "edition": "deluxe",
         "year": 2015,
-        "image": "littae2.github.io/img/Music/halestorm_intothewild_.jpg",
+        "image": "img/Music/halestorm_intothewild_.jpg",
 
         "song": {
           "I Am The Fire": {
@@ -195,7 +195,7 @@
       "The Strange Case Of...": {
         "edition": "deluxe",
         "year": 2012,
-        "image": "littae2.github.io/img/Music/halestorm_strangecaseof.jpg",
+        "image": "img/Music/halestorm_strangecaseof.jpg",
 
         "song": {
           "Love Bites (So Do I)": {
@@ -232,7 +232,7 @@
       "Vicious": {
         "edition": "standard",
         "year": 2018,
-        "image": "littae2.github.io/img/Music/halestorm_vicious.png",
+        "image": "img/Music/halestorm_vicious.png",
 
         "song": {
           "Uncomfortable": {
@@ -258,7 +258,7 @@
       "Get Weird": {
         "edition": "deluxe",
         "year": 2015,
-        "image": "littae2.github.io/img/Music/littleMix_GetWeirdDeluxe.jpg",
+        "image": "img/Music/littleMix_GetWeirdDeluxe.jpg",
 
         "song": {
           "Black Magic": {
@@ -318,7 +318,7 @@
       "Glory Days": {
         "edition": "Platinum",
         "year": 2016,
-        "image": "littae2.github.io/img/Music/LittleMix_GloryDaysPlatinum.jpg",
+        "image": "img/Music/LittleMix_GloryDaysPlatinum.jpg",
 
         "song": {
           "Shout Out To My Ex": {
@@ -368,7 +368,7 @@
       "Salute": {
         "edition": "deluxe",
         "year": 2013,
-        "image": "littae2.github.io/img/Music/littleMix_SaluteDeluxe.jpg",
+        "image": "img/Music/littleMix_SaluteDeluxe.jpg",
 
         "song": {
           "Salute": {
@@ -400,7 +400,7 @@
       "Thank You": {
         "edition": "deluxe",
         "year": 2016,
-        "image": "littae2.github.io/img/Music/meghanTrainor_ThankYouDeluxe.jpg",
+        "image": "img/Music/meghanTrainor_ThankYouDeluxe.jpg",
 
         "song": {
           "Watch Me Do": {
@@ -444,7 +444,7 @@
       "Going To Hell": {
         "edition": "standard",
         "year": 2014,
-        "image": "littae2.github.io/img/Music/theprettyreckless_gointohell.jpg",
+        "image": "img/Music/theprettyreckless_gointohell.jpg",
 
         "song": {
           "Going To Hell": {
@@ -476,7 +476,7 @@
       "Light Me Up": {
         "edition": "standard",
         "year": 2010,
-        "image": "littae2.github.io/img/Music/theprettyreckless_lightmeup.jpg",
+        "image": "img/Music/theprettyreckless_lightmeup.jpg",
 
         "song": {
           "My Medicine": {
@@ -514,7 +514,7 @@
       "Handmade Songs": {
         "edition": "standard",
         "year": 2012,
-        "image": "littae2.github.io/img/Music/toriKelly_HandmadeSongs.jpg",
+        "image": "img/Music/toriKelly_HandmadeSongs.jpg",
 
         "song": {
           "All In My Head": {
@@ -540,7 +540,7 @@
       "Hiding Place": {
         "edition": "standard",
         "year": 2018,
-        "image": "littae2.github.io/img/Music/toriKelly_HidingPlace.jpg",
+        "image": "img/Music/toriKelly_HidingPlace.jpg",
 
         "song": {
           "Questions": {
@@ -560,7 +560,7 @@
       "Inspired By True Events": {
         "edition": "deluxe",
         "year": 2019,
-        "image": "littae2.github.io/img/Music/toriKelly_inspiredByTrueEvents.jpg",
+        "image": "img/Music/toriKelly_inspiredByTrueEvents.jpg",
 
         "song": {
           "Coffee": {
@@ -640,7 +640,7 @@
       "Zaz": {
         "edition": "standard",
         "year": 2010,
-        "image": "littae2.github.io/img/Music/Zaz_Zaz.jpg",
+        "image": "img/Music/Zaz_Zaz.jpg",
 
         "song": {
           "Les Passants": {
