@@ -104,6 +104,7 @@ function topTracks() {
           "<img  src='" +
           albumImage +
           "' width=50px height=50px class ='albumTrack'>" +
+          "<div class='infoContainer'>"+
           "<div class ='trackInfo'>" +
           songName +
           " - " +
@@ -111,7 +112,7 @@ function topTracks() {
           " (" +
           album +
           ")" +
-          "</div><div class='barContainer'></div><div class = 'heart'></div></div>";
+          "</div><div class='barContainer'></div><div class = 'heart'></div></div></div>";
         let max = top20[0].listened;
       }
       let container = document.getElementsByClassName("barContainer");
@@ -212,7 +213,11 @@ function recentTracks() {
           "<img  src='" +
           albumImage +
           "' width=50px height=50px class ='albumTrack'>" +
+          "<div class ='aboutTrack'>"+
+         "<div class = 'heart'></div>"+
           "<div class ='trackData'>" +
+          
+          
           songName +
           " - " +
           artist +
@@ -220,7 +225,7 @@ function recentTracks() {
           album +
           ") <div class='listen'> Last listened: " +
           lastTime +
-          "</div></div><div class = 'heart'></div></div>";
+          "</div></div></div></div>";
       }
       let heartElements = document.getElementsByClassName("heart");
       for (let j = 0; j < heartElements.length; j++) {

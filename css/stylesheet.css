@@ -121,21 +121,56 @@ header {
   font-size: 300%;
 }
 /** Both recent tracks and top 20 */
-.albumTrack {
-  width: 20%;
-  height: auto;
-  justify-self: left;
-}
+
 .track {
   display: flex;
-  flex-direction: row;
+  flex-flow: wrap;
   margin: 1%;
+}
+.albumTrack {
+  width: 50%;
+  height: auto;
+}
+.track img {
+  width: 800px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.aboutTrack {
+  width: 800px;
+  justify-content: center;
+  flex-flow: wrap;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.heart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 250%;
+  margin: 1%;
+  margin-left: 0%;
+}
+.fa-heart {
+  content: "\f004";
+}
+/*recent tracks */
+.trackData {
+  width: 90%;
+  margin: 1%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 250%;
 }
 /*top+ tracks */
 .trackInfo {
   margin: 2%;
-  width: 40%;
-  flex-direction: column;
+  width: 90%;
+  flex-direction: row;
   font-size: 150%;
   text-align: start;
 }
@@ -155,52 +190,50 @@ header {
   border-style: solid;
   border-radius: 5%;
   width: 80%;
-  height: 5%;
 }
 .barFill {
   margin-left: auto;
   background-color: white;
 }
 .barContainer {
-  width: 40%;
+  font-size: 200%;
+  height: 30%;
+  width: 80%;
   display: flex;
   direction: unset;
+  margin-right: 0;
+}
+.infoContainer {
+  margin-left: 8%;
+  display: flex;
+  height: auto;
+  flex-flow: wrap;
+  width: 90%;
+  font-size: 200%;
+  margin-bottom: 5%;
 }
 
-.heart i {
-  display: flex;
-  justify-items: center;
-  font-size: 150%;
-}
 .listenCount {
   text-align: center;
 }
-/*recent tracks */
-.trackData {
-  width: 100%;
-  margin: 1%;
-  font-size: 150%;
-}
 
 /*top artists */
-* {
-  box-sizing: border-box;
-}
 
 .container {
   position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #ArtistList {
   justify-self: center;
   justify-content: center;
   display: flex;
-
-  flex-flow: wrap;
+  flex-direction: column;
   margin: 0%;
 }
 
 .image {
-  display: flex;
   width: 100%;
   height: auto;
 }
@@ -215,8 +248,9 @@ header {
   transition: 0.5s ease;
   opacity: 0;
   color: white;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 400%;
+  margin-bottom: 1%;
+
   text-align: center;
 }
 
@@ -308,7 +342,7 @@ header {
     font-family: "Hind";
     font-size: 200%;
     color: white;
-  
+
     text-decoration-line: none;
     background-color: black;
     border: none;
@@ -324,7 +358,7 @@ header {
   header {
     background-color: black;
   }
-  
+
   /** Contact page **/
   .contactBanner {
     background-image: url("../img/keyboard.jpg");
@@ -339,7 +373,7 @@ header {
     bottom: 0;
     width: 100%;
   }
-  
+
   .contactForm input {
     width: 70%;
     box-sizing: border-box;
@@ -370,13 +404,13 @@ header {
     background-color: #f8f8f8;
     resize: none;
   }
-  
+
   .contactBanner h1 {
     text-align: center;
     font-size: 600%;
     padding-bottom: 3%;
   }
-  
+
   /** Home page header **/
   .HomeBanner {
     background-image: url("../img/gitar.jpg");
@@ -455,7 +489,7 @@ header {
     display: flex;
     direction: unset;
   }
-  
+
   .heart i {
     display: flex;
     justify-items: center;
@@ -470,12 +504,12 @@ header {
     margin: 1%;
     font-size: 150%;
   }
-  
+
   /*top artists */
   * {
     box-sizing: border-box;
   }
-  
+
   .container {
     position: relative;
   }
@@ -483,17 +517,17 @@ header {
     justify-self: center;
     justify-content: center;
     display: flex;
-  
+
     flex-flow: wrap;
     margin: 0%;
   }
-  
+
   .image {
     display: flex;
     width: 100%;
     height: auto;
   }
-  
+
   .overlay {
     position: absolute;
     bottom: 0;
@@ -508,35 +542,35 @@ header {
     padding: 20px;
     text-align: center;
   }
-  
+
   .container:hover .overlay {
     opacity: 1;
   }
-  
+
   /* comment section*/
   #comments {
     padding: 10%;
     padding-top: 0%;
     justify-content: center;
   }
-  
+
   .commentsForm {
     font-family: "Hind";
     display: flex;
     flex-direction: column;
     border-radius: 2%;
     justify-content: center;
-  
+
     font-size: 150%;
     padding: 5%;
     background-color: rgb(241, 237, 237);
   }
   #textBox {
     font-family: "Hind";
-  
+
     width: 100%;
   }
-  
+
   #commentSubmit {
     font-family: "Hind";
     margin-left: auto;
