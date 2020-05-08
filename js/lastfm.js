@@ -43,6 +43,29 @@ function topArtists() {
       }
     });
 }
+function heartToggle() {
+  let heartElements = document.getElementsByClassName("heart");
+  for (let j = 0; j < heartElements.length; j++) {
+    let newel = document.createElement("div");
+    newel.classList.add("far", "fa-heart");
+    heartElements[j].append(newel);
+  }
+  let heart = document.getElementsByClassName("heart");
+  for (let i = 0; i < heart.length; i++) {
+    console.log(heart.length);
+    heart[i].addEventListener("click", function () {
+      let child = heart[i].firstChild;
+
+      if (child.classList.contains("far")) {
+        child.classList.remove("far", "fa-heart");
+        child.classList.add("fas", "fa-heart");
+      } else if (child.classList.contains("fas")) {
+        child.classList.remove("fas", "fa-heart");
+        child.classList.add("far", "fa-heart");
+      }
+    });
+  }
+}
 function topTracks() {
   fetch("json/musicv3.json")
     .then((response) => {
@@ -104,7 +127,7 @@ function topTracks() {
           "<img  src='" +
           albumImage +
           "' width=50px height=50px class ='albumTrack'>" +
-          "<div class='infoContainer'>"+
+          "<div class='infoContainer'>" +
           "<div class ='trackInfo'>" +
           songName +
           " - " +
@@ -135,17 +158,7 @@ function topTracks() {
         fill[i].style.width = empty + "%";
       }
 
-      let heartElements = document.getElementsByClassName("heart");
-      for (let j = 0; j < heartElements.length; j++) {
-        heartElements[j].innerHTML = "<i class='far fa-heart'></i>";
-      }
-      let heart = document.getElementsByClassName("heart");
-      for (let i = 0; i < heart.length; i++) {
-        heart[i].addEventListener("click", function () {
-          if ((heartElements[i].innerHTML = "<i class='far fa-heart'></i>"))
-            heartElements[i].innerHTML = "<i class='fas fa-heart'></i>";
-        });
-      }
+      heartToggle();
     });
 }
 
@@ -213,11 +226,9 @@ function recentTracks() {
           "<img  src='" +
           albumImage +
           "' width=50px height=50px class ='albumTrack'>" +
-          "<div class ='aboutTrack'>"+
-         "<div class = 'heart'></div>"+
+          "<div class ='aboutTrack'>" +
+          "<div class = 'heart'></div>" +
           "<div class ='trackData'>" +
-          
-          
           songName +
           " - " +
           artist +
@@ -226,17 +237,6 @@ function recentTracks() {
           ") <div class='listen'> Last listened: " +
           lastTime +
           "</div></div></div></div>";
-      }
-      let heartElements = document.getElementsByClassName("heart");
-      for (let j = 0; j < heartElements.length; j++) {
-        heartElements[j].innerHTML = "<i class='far fa-heart'></i>";
-      }
-      let heart = document.getElementsByClassName("heart");
-      for (let i = 0; i < heart.length; i++) {
-        heart[i].addEventListener("click", function () {
-          if ((heartElements[i].innerHTML = "<i class='far fa-heart'></i>"))
-            heartElements[i].innerHTML = "<i class='fas fa-heart'></i>";
-        });
       }
     });
 }

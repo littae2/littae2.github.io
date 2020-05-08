@@ -119,7 +119,7 @@ header {
 /**  all song sections */
 .tittle {
   font-size: 600%;
-  
+
   text-align: center;
 }
 /** Both recent tracks and top 20 */
@@ -322,21 +322,19 @@ header {
 
 @media screen and (min-width: 1024px) {
   /* For desktop: */
-  
+
   /**  all song sections */
   .tittle {
     font-size: 300%;
   }
   /** Both recent tracks and top 20 */
- 
- 
-  .track img{
+
+  .track img {
     width: 14%;
     height: 14%;
     justify-self: left;
     margin-right: 5%;
     margin-left: 5%;
-    
   }
   .track {
     display: flex;
@@ -357,27 +355,25 @@ header {
     display: flex;
     margin: 1%;
     border-color: black;
-    width:100%;
-    
+    width: 100%;
   }
   .barFill {
     margin-left: auto;
     background-color: white;
   }
   .barContainer {
-    margin-left:1%;
+    margin-left: 1%;
     width: 90%;
     display: flex;
     direction: unset;
   }
 
   .heart i {
-    
     font-size: 80%;
   }
   .listenCount {
     text-align: center;
-    font-size:50%;
+    font-size: 50%;
   }
   /*recent tracks */
   .trackData {
@@ -385,30 +381,29 @@ header {
     margin-top: 0;
     font-size: 150%;
   }
- 
-  .aboutTrack{
-    display:flex;
-    
+
+  .aboutTrack {
+    display: flex;
+
     flex-direction: column;
     flex-wrap: wrap;
-    margin:0%;
+    margin: 0%;
     font-size: 100%;
   }
   /*top artists */
 
-.infoContainer i{
-  font-size: 50%;
- 
-}
-.infoContainer .heart{
-  margin:0;
-  margin-bottom: 4%;
-  margin-left: auto;
-}
+  .infoContainer i {
+    font-size: 50%;
+  }
+  .infoContainer .heart {
+    margin: 0;
+    margin-bottom: 4%;
+    margin-left: auto;
+  }
 
   .container {
     position: relative;
-    width:25%;
+    width: 25%;
   }
   #ArtistList {
     justify-self: center;
@@ -428,14 +423,14 @@ header {
   .overlay {
     position: absolute;
     bottom: 0;
-   
+
     color: #f1f1f1;
     width: 100%;
     transition: 0.5s ease;
     opacity: 0;
     color: white;
     font-size: 20px;
-    
+
     text-align: center;
   }
 
@@ -448,7 +443,6 @@ header {
     padding: 10%;
     padding-top: 0%;
     justify-content: center;
-    
   }
 
   .commentsForm {
@@ -485,7 +479,6 @@ header {
     font-size: 150%;
   }
 
- 
   #ArtistList {
     justify-self: center;
     justify-content: center;
@@ -494,41 +487,36 @@ header {
     margin-left: 10%;
     margin-right: 10%;
   }
-  
-  .topTrack img{
-    width:14%;
-    height:10%;
-    margin:0%;
+
+  .topTrack img {
+    width: 14%;
+    height: 10%;
+    margin: 0%;
     margin-left: 4%;
     margin-right: 3%;
-    
-    
-    }
-    .topTrack{
-      font-size: 60%;
-      display:flex;
-      flex-direction: row;
-      margin:1%;
-      margin-left: 6%;
-      
-    }
-    .infoContainer{
-      margin:1%;
-      width:70%;
-    }
-    .infoContainer .trackInfo{
-      width: 100%;
-    }
-    footer {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      
-    }
-    #contactfooter {
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
-    
+  }
+  .topTrack {
+    font-size: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    margin-left: 6%;
+  }
+  .infoContainer {
+    margin: 1%;
+    width: 70%;
+  }
+  .infoContainer .trackInfo {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #contactfooter {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
 }
