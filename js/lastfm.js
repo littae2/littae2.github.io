@@ -100,7 +100,7 @@ function topTracks() {
         let explicit = top20[i].explicit;
 
         output.innerHTML +=
-          "<div class = 'track'>" +
+          "<div class = 'topTrack'>" +
           "<img  src='" +
           albumImage +
           "' width=50px height=50px class ='albumTrack'>" +

@@ -317,20 +317,20 @@ header {
  
  
   .track img{
-    width: 10%;
-    height: 10%;
+    width: 14%;
+    height: 14%;
     justify-self: left;
   }
   .track {
     display: flex;
-    flex-flow: row;
-    flex-direction: row;
+    flex-wrap: wrap;
     margin: 1%;
     justify-content: left;
   }
   /*top+ tracks */
   .trackInfo {
     margin: 2%;
+    margin-bottom: 0;
     width: 40%;
     flex-direction: column;
     font-size: 100%;
@@ -340,23 +340,22 @@ header {
     display: flex;
     margin: 1%;
     border-color: black;
+    width:100%;
     
-    width: 80%;
-    height: 5%;
   }
   .barFill {
     margin-left: auto;
     background-color: white;
   }
   .barContainer {
-    width: 40%;
+    margin-left:1%;
+    width: 90%;
     display: flex;
     direction: unset;
   }
 
   .heart i {
-    display: flex;
-  justify-self: left;
+    
     font-size: 80%;
   }
   .listenCount {
@@ -366,12 +365,29 @@ header {
   /*recent tracks */
   .trackData {
     width: 100%;
-    margin: 1%;
+    margin-top: 0;
     font-size: 150%;
   }
-
+ 
+  .aboutTrack{
+    display:flex;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:0%;
+    font-size: 100%;
+  }
   /*top artists */
 
+.infoContainer i{
+  font-size: 50%;
+ 
+}
+.infoContainer .heart{
+  margin:0;
+  margin-bottom: 4%;
+  margin-left: auto;
+}
 
   .container {
     position: relative;
@@ -461,8 +477,40 @@ header {
     margin-right: 10%;
   }
   
-  .aboutTrack{
+  .topTrack img{
+    width:14%;
+    height:10%;
     margin:0%;
-    font-size: 100%;
-  }
+    margin-left: 4%;
+    margin-right: 3%;
+    
+    
+    }
+    .topTrack{
+      font-size: 60%;
+      display:flex;
+      flex-direction: row;
+      margin:1%;
+      margin-left: 6%;
+      
+    }
+    .infoContainer{
+      margin:1%;
+      width:70%;
+    }
+    .infoContainer .trackInfo{
+      width: 100%;
+    }
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      
+    }
+    #contactfooter {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    
 }
