@@ -118,7 +118,9 @@ header {
 }
 /**  all song sections */
 .tittle {
-  font-size: 300%;
+  font-size: 600%;
+  
+  text-align: center;
 }
 /** Both recent tracks and top 20 */
 
@@ -132,6 +134,18 @@ header {
   height: auto;
 }
 .track img {
+  width: 800px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.topTrack {
+  display: flex;
+  flex-flow: wrap;
+  margin: 1%;
+}
+.topTrack img {
   width: 800px;
   height: auto;
   margin-left: auto;
@@ -320,6 +334,9 @@ header {
     width: 14%;
     height: 14%;
     justify-self: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    
   }
   .track {
     display: flex;
@@ -431,6 +448,7 @@ header {
     padding: 10%;
     padding-top: 0%;
     justify-content: center;
+    
   }
 
   .commentsForm {
