@@ -284,6 +284,7 @@ function enterComment() {
     let dateTime = date + " " + time;
     let current = new Date(dateTime);
     replyArea.innerText = current + "\n" + message;
+    return false;
   });
 }
 recentTracks();
